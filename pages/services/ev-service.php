@@ -1,44 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <title>
-      No Page Found || Pure Medical Billing Solutions
-    </title>
-
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/images/favicon.png"
-    />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="../css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-1?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link href="../css2-3?family=Homemade+Apple&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css">
-    <link rel="stylesheet" href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css">
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css">
-    <link rel="stylesheet" href="assets/vendors/insuba-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/insuba.css">
+<?php
+    include 'includes/links.php';
+    ?>
 </head>
 
 <body class="custom-cursor">
@@ -88,85 +56,140 @@
                                         <span class="sr-only">Instagram</span>
                                     </span><!-- /.social-links__icon -->
                                 </a>
-                            </div><!-- /.topbar__social social-links -->
+                            </div>
                         </div><!-- /.topbar__right -->
                     </div><!-- /.topbar__inner -->
                 </div><!-- /.container-fluid -->
             </div><!-- /.topbar -->
 
-            <header class="main-header main-header--one sticky-header sticky-header--normal">
-                <div class="container-fluid">
-                    <div class="main-header__inner">
-                        <div class="main-header__logo logo-retina">
-                            <a href="index.html">
-                                <img src="assets/images/logo-dark.png" alt="Insuba HTML" width="372">
-                            </a>
-                        </div><!-- /.main-header__logo -->
-                        <div class="main-header__right">
-                            <div class="mobile-nav__btn mobile-nav__toggler">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div><!-- /.mobile-nav__toggler -->
-                            <nav class="main-header__nav main-menu">
-                                <ul class="main-menu__list">
-                                <li>
-                                    <a href="index.html">Home</a>
-                                </li>
+                        <?php
+                include 'includes/header.php';
+            ?>
+        </div>
 
-
-                                <li>
-                                    <a href="about.html">About Us</a>
-                                </li>
-
-                                <li>
-                                    <a href="services.html">Services </a>
-                                </li>
-                                
-                                <li>
-                                    <a href="faq.html">FAQ</a>
-                                </li>
-                                <li>
-                                    <a href="contact.php">Contact</a>
-                                </li>
-                                </ul>
-                            </nav>
-                        </div><!-- /.main-header__right -->
-                    </div><!-- /.main-header__inner -->
-                </div><!-- /.container-fluid -->
-            </header><!-- /.main-header -->
-        </div><!-- /.header -->
-        <section class="page-header">
-            <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-bg.png);"></div><!-- /.page-header__bg -->
+        <section class="service-details section-space-top section-space-bottom2">
             <div class="container">
-                <div class="page-header__content">
-                    <h2 class="page-header__title">Error Page</h2>
-                    <ul class="insuba-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><span>Error Page</span></li>
-                    </ul><!-- /.insuba-breadcrumb list-unstyled -->
-                </div><!-- /.page-header__content -->
-            </div><!-- /.container -->
-            <img src="assets/images/resources/page-header-1-1.png" alt="image" class="page-header__image">
-            <img src="assets/images/shapes/page-header-shape-1-1.png" alt="shape" class="page-header__shape-one">
-            <div class="page-header__shape-two"></div><!-- /.page-header__shape-two -->
-            <div class="page-header__shape-three"></div><!-- /.page-header__shape-three -->
-            <div class="page-header__shape-four"></div><!-- /.page-header__shape-three -->
-        </section><!-- /.page-header -->
+                <center><h1 style="font-weight: 600;">Eligibility Verification</h1></center>
+                <div class="service-details__content">
+                        <p class="service-details__text">Eligibility and Benefits Verification is essential for providers to ensure that the patient’s insurance covers the services and procedures. By having detailed and accurate records of insurance coverage, healthcare providers can more efficiently plan and provide care to their patients, as well as streamline billing processes.</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">The Importance of Eligibility and Benefits Verification</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Eligibility and Benefits Verification is an important process that healthcare providers must complete to ensure their practices’ financial success. It helps reduce the risk of denied or delayed claims, ensuring providers receive accurate payment for their services. By checking insurance information ahead of time, providers can also reduce the chance of unexpected medical bills and make their finances more stable overall.
 
-        <section class="error-404 section-space-top section-space-bottom2">
-            <div class="container">
-                <div class="error-404__content">
-                    <img src="assets/images/shapes/error-404.png" alt="error 404" class="error-404__image">
-                    <h3 class="error-404__title wow fadeInUp" data-wow-duration="1500ms">Page not found!</h3><!-- /.error-404__title -->
-                    <p class="error-404__text wow fadeInUp" data-wow-duration="1500ms">Sorry we can't find that page! The page you are looking <br>
-                        for was never existed.</p><!-- /.error-404__text -->
-                    <div class="error-404__btns wow fadeInUp" data-wow-duration="1500ms">
-                        <a href="index.html" class="error-404__btn insuba-btn insuba-btn--base"><span>Go To Home</span></a>
-                    </div><!-- /.error-404__btns -->
-                </div><!-- /.error-404__content -->
+</p><!-- /.service-details__text -->
+                        <p class="service-details__text">According to the survey report, mostly practice revenue burns due to insurance coverage and member benefits. Many claims are denied because eligibility and benefits are not verified, or the plan or providers do not cover the patient or service. A huge revenue can save if the practice establishes an insurance verification process in the office or get services from a professional organization.
+
+</p><!-- /.service-details__text -->
+                        <p class="service-details__text">Our trained and experienced specialist team will guide and assist you with patient eligibility and benefits services with custom-designed sheets. We took the patient eligibility and benefit according to the client’s demands.
+
+</p><!-- /.service-details__text -->
+                        <p class="service-details__text">We highly recommend and encourage all healthcare providers to use the Availity, Navi-Net Provider Portal, or their preferred vendor for eligibility and benefit verifications tools and get benefits information from the member services helpline via phone or IVR.
+
+</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Our Eligibility & Benefits Verifications Process</h3><!-- /.service-details__title -->
+                        <ul>
+                            <li>
+                                <p class="service-details__text">
+                                    Search benefits by category, including vision
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Get a copy of the digital ID card
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Check coverage limits and therapy accumulators
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Verify the care provider’s network and tier status for the member’s plan
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+View cost share amounts and balances
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Learn more about Eligibility and Benefits
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Member ID Cards Verification
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Identify the Member’s Primary Care Provider (PCP)
+
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">The Benefits of Working with Scribe Align</h3><!-- /.service-details__title -->
+                        <ul>
+                            <li>
+                                <p class="service-details__text">
+Accurate and efficient Eligibility and Benefits Verification services
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Reduced risk of denied or delayed claims
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Improved financial stability and maximum reimbursement for services
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Collection of receivables on a regular basis
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Stay up-to-date with the latest regulatory changes
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Advanced technology and a team of experts to provide tailored, personalized solutions
+
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">How PMBS Can Help
+</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Pure Medical Billing Solutions recognizes the significance of eligibility and benefits verification and strives to give clients speedy and effective solutions. Our team of experts has extensive experience in the medical billing industry and uses advanced technology to verify insurance information accurately and quickly. Our comprehensive services can help healthcare providers maximize financial performance and ensure timely payment.
+
+</p><!-- /.service-details__text -->
+                    </div>
+                </div><!-- /.service-details__content -->
             </div><!-- /.container -->
-        </section><!-- /.error-404 section-space-top -->
+        </section><!-- /.service-details -->
 
         <div class="newsletter @@extraClassName">
             <div class="container">
@@ -181,16 +204,15 @@
                     </div><!-- /.newsletter__image -->
                     <div class="newsletter__form">
                         <h3 class="newsletter__form__title">Get an overview of all our services</h3><!-- /.newsletter__form__title -->
-                        <form action="contact.php" method="post"  class="newsletter__form__form mc-form">
+                        <form action="#" data-url="MAILCHIMP_FORM_URL" class="newsletter__form__form mc-form">
                             <input type="text" name="EMAIL" id="contact-email" placeholder="Your email address">
-                            <button type="submit" onclick="submitForm()" class="insuba-btn"><span>Submit</span></button>
+                            <button type="submit"  onclick="submitForm()"class="insuba-btn"><span>Submit</span></button>
                         </form><!-- /.newsletter__form__form mc-form -->
                         <div class="mc-form__response"></div><!-- /.mc-form__response -->
                     </div><!-- /.newsletter__form -->
                 </div><!-- /.newsletter__inner -->
             </div><!-- /.container -->
         </div><!-- /.newsletter -->
-
 <script>
     function submitForm(){
         var emailContainer = document.getElementById('contact-email');
@@ -198,7 +220,6 @@
         window.location.href = 'contact.php?email=' + encodeURIComponent(value);
     }
 </script>
-
         <footer class="main-footer @@extraClassName">
             <div class="main-footer__top">
                 <div class="main-footer__bg" style="background-image: url(assets/images/backgrounds/footer-bg.jpg);"></div><!-- /.main-footer__bg -->
@@ -368,30 +389,9 @@
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
     </a>
 
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="assets/vendors/chart/chart.js"></script>
-    <!-- template js -->
-    <script src="assets/js/insuba.js"></script>
+    <?php
+    include 'includes/scripts.php';
+    ?>
 </body>
 
 </html>

@@ -1,81 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Home || Pure Medical Billing Solutions
-    </title>
 
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/images/favicon.png"
-    />
+    <?php
+    include "includes/links.php";
+    ?>
 
-
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-    <link
-      href="../css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="../css2-1?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="../css2-2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="../css2-3?family=Homemade+Apple&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      rel="stylesheet"
-      href="assets/vendors/bootstrap/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/bootstrap-select/bootstrap-select.min.css"
-    />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/nouislider/nouislider.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/nouislider/nouislider.pips.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css"
-    />
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/vendors/insuba-icons/style.css" />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/owl-carousel/css/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/owl-carousel/css/owl.theme.default.min.css"
-    />
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/insuba.css" />
   </head>
 
   <body class="custom-cursor">
@@ -162,25 +94,27 @@
               <!-- /.mobile-nav__toggler -->
               <nav class="main-header__nav main-menu">
                 <ul class="main-menu__list">
-                  <li>
-                    <a href="index.html">Home</a>
-                  </li>
+                                <li>
+                                    <a href="/<?= $base_url?>">Home</a>
+                                </li>
 
-                  <li>
-                    <a href="about.html">About Us</a>
-                  </li>
 
-                  <li>
-                    <a href="services.html">Services </a>
-                  </li>
+                                <li>
+                                    <a href="/<?= $base_url?>about">About Us</a>
+                                </li>
 
-                  <li>
-                    <a href="faq.html">FAQ</a>
-                  </li>
-                  <li>
-                    <a href="contact.php">Contact</a>
-                  </li>
-                </ul>
+
+                                <li>
+                                    <a href="/<?= $base_url?>services">Services </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/<?= $base_url?>faq">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="/<?= $base_url?>contact">Contact</a>
+                                </li>
+                                </ul>
               </nav>
                 <!-- <a href="contact.php" class="insuba-btn insuba-btn--base main-header__btn">
                     <span>Get a Quote</span>
@@ -281,7 +215,7 @@
                     <div class="main-slider-two__button">
                       <div class="main-slider-two__button__inner">
                         <a
-                          href="mbc-service.html"
+                          href="<?= $service_base_url;?>Medical-Billing"
                           class="main-slider-two__btn insuba-btn"
                         >
                           <span>Learn More</span>
@@ -383,7 +317,7 @@
                     <div class="main-slider-two__button">
                       <div class="main-slider-two__button__inner">
                         <a
-                          href="va-service.html"
+                          href="Virtual-Assistance"
                           class="main-slider-two__btn insuba-btn"
                         >
                           <span>Learn More</span>
@@ -485,7 +419,7 @@
                     <div class="main-slider-two__button">
                       <div class="main-slider-two__button__inner">
                         <a
-                          href="pc-service.html"
+                          href="Payer-Credentialing"
                           class="main-slider-two__btn insuba-btn"
                         >
                           <span>Learn More</span>
@@ -881,7 +815,7 @@
                   </div>
                   <!-- /.service-card-two__icon-box -->
                   <h3 class="service-card-two__title">
-                    <a href="mbc-service.html">Medical Billing & Coding</a>
+                    <a href="<?= $service_base_url;?>Medical-Billing">Medical Billing & Coding</a>
                   </h3>
                   <!-- /.service-card-two__title -->
                   <p class="service-card-two__text">Accurate claims, faster payments</p>
@@ -889,7 +823,7 @@
                 </div>
                 <!-- /.service-card-two__content -->
                 <a
-                  href="mbc-service.html"
+                  href="<?= $service_base_url;?>Medical-Billing"
                   class="service-card-two__btn"
                 >
                   <span class="service-card-two__btn__icon"
@@ -926,7 +860,7 @@
                   </div>
                   <!-- /.service-card-two__icon-box -->
                   <h3 class="service-card-two__title">
-                    <a href="va-service.html">Virtual Assistance</a>
+                    <a href="/<?= $base_url;?>Virtual-Assistance">Virtual Assistance</a>
                   </h3>
                   <!-- /.service-card-two__title -->
                   <p class="service-card-two__text">Streamline tasks with expert support.</p>
@@ -934,7 +868,7 @@
                 </div>
                 <!-- /.service-card-two__content -->
                 <a
-                  href="va-service.html"
+                  href="/<?= $base_url;?>Virtual-Assistance"
                   class="service-card-two__btn"
                 >
                   <span class="service-card-two__btn__icon"
@@ -971,7 +905,7 @@
                   </div>
                   <!-- /.service-card-two__icon-box -->
                   <h3 class="service-card-two__title">
-                    <a href="pc-service.html"
+                    <a href="Payer-Credentialing"
                       >Provider Credentialing</a
                     >
                   </h3>
@@ -981,7 +915,7 @@
                 </div>
                 <!-- /.service-card-two__content -->
                 <a
-                  href="pc-service.html"
+                  href="Payer-Credentialing"
                   class="service-card-two__btn"
                 >
                   <span class="service-card-two__btn__icon"
@@ -1110,7 +1044,7 @@
                   </div>
                   <!-- /.service-card-two__icon-box -->
                   <h3 class="service-card-two__title">
-                    <a href="mbc-service.html"
+                    <a href="<?= $service_base_url;?>Medical-Billing"
                       >Patient Billing Support</a
                     >
                   </h3>
@@ -1120,7 +1054,7 @@
                 </div>
                 <!-- /.service-card-two__content -->
                 <a
-                  href="mbc-service.html"
+                  href="<?= $service_base_url;?>Medical-Billing"
                   class="service-card-two__btn"
                 >
                   <span class="service-card-two__btn__icon"
@@ -1383,7 +1317,7 @@
                       </ul>
                       <!-- /.why-choose-one__list list-unstyled -->
                       <div class="why-choose-one__button">
-                        <a href="mbc-service.html" class="insuba-btn">
+                        <a href="<?= $service_base_url;?>Medical-Billing" class="insuba-btn">
                           <span>Read More</span>
                           <span class="insuba-btn__icon-box">
                             <span class="insuba-btn__icon"
@@ -1451,7 +1385,7 @@
                       </ul>
                       <!-- /.why-choose-one__list list-unstyled -->
                       <div class="why-choose-one__button">
-                        <a href="mbc-service.html" class="insuba-btn">
+                        <a href="<?= $service_base_url;?>Medical-Billing" class="insuba-btn">
                           <span>Read More</span>
                           <span class="insuba-btn__icon-box">
                             <span class="insuba-btn__icon"
@@ -2535,7 +2469,7 @@
                           alt="Get Insured & Blog To Insurance Service"
                         />
                         <a
-                          href="mbc-service.html"
+                          href="<?= $service_base_url;?>Medical-Billing"
                           class="blog-card-two__image__link"
                           ><span class="sr-only"
                             >Faster Payments, Less Stress</span
@@ -2553,7 +2487,7 @@
                     <!-- /.blog-card-two__image -->
                     <div class="blog-card-two__content">
                       <h3 class="blog-card-two__title">
-                        <a href="mbc-service.html"
+                        <a href="<?= $service_base_url;?>Medical-Billing"
                           >Faster Payments, Less Stress</a
                         >
                       </h3>
@@ -2563,7 +2497,7 @@
                       </p>
                       <!-- /.blog-card-two__text -->
                       <a
-                        href="mbc-service.html"
+                        href="<?= $service_base_url;?>Medical-Billing"
                         class="blog-card-two__link"
                       >
                         <span class="blog-card-two__link__icon">
@@ -2795,30 +2729,9 @@
       ></span>
     </a>
 
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="assets/vendors/chart/chart.js"></script>
-    <!-- template js -->
-    <script src="assets/js/insuba.js"></script>
+    <?php
+    include "includes/scripts.php";
+    ?>
     <script>
     function submitForm(){
         var emailContainer = document.getElementById('contact-email');

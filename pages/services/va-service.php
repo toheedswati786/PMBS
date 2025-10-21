@@ -1,43 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-      Core Services || Pure Medical Billing Solutions
-    </title>
-
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/images/favicon.png"
-    />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="../css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-1?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link href="../css2-3?family=Homemade+Apple&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css">
-    <link rel="stylesheet" href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css">
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css">
-    <link rel="stylesheet" href="assets/vendors/insuba-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/insuba.css">
+<?php
+    include  'includes/links.php';
+    ?>
 </head>
 
 <body class="custom-cursor">
@@ -93,166 +62,100 @@
                 </div><!-- /.container-fluid -->
             </div><!-- /.topbar -->
 
-            <header class="main-header main-header--one sticky-header sticky-header--normal">
-                <div class="container-fluid">
-                    <div class="main-header__inner">
-                        <div class="main-header__logo logo-retina">
-                            <a href="index.html">
-                                <img src="assets/images/logo-dark.png" alt="Insuba HTML" width="372">
-                            </a>
-                        </div><!-- /.main-header__logo -->
-                        <div class="main-header__right">
-                            <div class="mobile-nav__btn mobile-nav__toggler">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div><!-- /.mobile-nav__toggler -->
-                            <nav class="main-header__nav main-menu">
-                                <ul class="main-menu__list">
-                                    <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-
-
-                                    <li>
-                                        <a href="about.html">About Us</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="services.html">Services </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="faq.html">FAQ</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.php">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div><!-- /.main-header__right -->
-                    </div><!-- /.main-header__inner -->
-                </div><!-- /.container-fluid -->
-            </header><!-- /.main-header -->
+            <?php
+                include 'includes/header.php';
+            ?>
         </div>
 
         <section class="service-details section-space-top section-space-bottom2">
             <div class="container">
-                <center><h1 style="font-weight: 600;">Eligibility Verification</h1></center>
+                <center><h1 style="font-weight: 600;">Virtual Assistant Services</h1></center>
                 <div class="service-details__content">
-                        <p class="service-details__text">Eligibility and Benefits Verification is essential for providers to ensure that the patient’s insurance covers the services and procedures. By having detailed and accurate records of insurance coverage, healthcare providers can more efficiently plan and provide care to their patients, as well as streamline billing processes.</p><!-- /.service-details__text -->
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Introduction</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">In today’s rapidly evolving healthcare landscape, medical professionals face numerous challenges in efficiently managing administrative tasks while delivering the highest standard of patient care. At Pure Medical Billing Solutions, we recognize the demanding nature of medical practices, which is why we are proud to offer comprehensive Virtual Assistance services tailored specifically for healthcare providers. Our team of skilled virtual assistants is well-equipped to handle a wide range of administrative responsibilities, enabling medical practitioners to prioritize their patients’ well-being and experience.</p><!-- /.service-details__text -->
                     </div>
                     <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">The Importance of Eligibility and Benefits Verification</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">Eligibility and Benefits Verification is an important process that healthcare providers must complete to ensure their practices’ financial success. It helps reduce the risk of denied or delayed claims, ensuring providers receive accurate payment for their services. By checking insurance information ahead of time, providers can also reduce the chance of unexpected medical bills and make their finances more stable overall.
-
-</p><!-- /.service-details__text -->
-                        <p class="service-details__text">According to the survey report, mostly practice revenue burns due to insurance coverage and member benefits. Many claims are denied because eligibility and benefits are not verified, or the plan or providers do not cover the patient or service. A huge revenue can save if the practice establishes an insurance verification process in the office or get services from a professional organization.
-
-</p><!-- /.service-details__text -->
-                        <p class="service-details__text">Our trained and experienced specialist team will guide and assist you with patient eligibility and benefits services with custom-designed sheets. We took the patient eligibility and benefit according to the client’s demands.
-
-</p><!-- /.service-details__text -->
-                        <p class="service-details__text">We highly recommend and encourage all healthcare providers to use the Availity, Navi-Net Provider Portal, or their preferred vendor for eligibility and benefit verifications tools and get benefits information from the member services helpline via phone or IVR.
+                        <h3 class="service-details__title service-details__details__title">Streamlined Patient Intake & Referral Management</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">One of our primary objectives is to streamline the process of onboarding new patients and managing referrals. Our virtual assistants meticulously gather patient information, verify insurance details, and ensure accurate documentation, contributing to a smooth and efficient patient intake process. Serving as a friendly and reliable point of contact for new patients, our virtual assistants provide personalized assistance that sets the stage for a positive patient experience.</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Efficient Appointment Scheduling</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Managing appointments can be a time-consuming task for medical professionals. Our virtual assistants excel in appointment scheduling, seamlessly coordinating between patients and healthcare providers. From scheduling initial consultations to handling cancellations and sending timely reminders, our team ensures that your practice’s calendar remains organized and optimized. By taking care of appointment logistics, our virtual assistants enable medical practitioners to focus on delivering exceptional patient care.</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Effective Calendar Management:</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Keeping track of a busy schedule is essential for medical service providers. Our virtual assistants excel in calendar management, ensuring that appointments, meetings, and other commitments are effectively organized. By creating a well-structured schedule that incorporates patient appointments alongside other professional obligations, we help medical practitioners maintain an efficient workflow and maximize their productivity.</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Organized E-database System:</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Efficient organization and management of electronic medical records are critical for every medical practice. Our virtual assistants possess the necessary expertise to maintain an orderly e-database system. Whether it involves categorizing patient records, updating information, or digitizing paper files, our team ensures that your practice’s records are accurate, secure, and easily accessible when needed.
 
 </p><!-- /.service-details__text -->
                     </div>
                     <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">Our Eligibility & Benefits Verifications Process</h3><!-- /.service-details__title -->
-                        <ul>
-                            <li>
-                                <p class="service-details__text">
-                                    Search benefits by category, including vision
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Get a copy of the digital ID card
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Check coverage limits and therapy accumulators
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Verify the care provider’s network and tier status for the member’s plan
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-View cost share amounts and balances
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Learn more about Eligibility and Benefits
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Member ID Cards Verification
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Identify the Member’s Primary Care Provider (PCP)
-
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">The Benefits of Working with Scribe Align</h3><!-- /.service-details__title -->
-                        <ul>
-                            <li>
-                                <p class="service-details__text">
-Accurate and efficient Eligibility and Benefits Verification services
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Reduced risk of denied or delayed claims
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Improved financial stability and maximum reimbursement for services
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Collection of receivables on a regular basis
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Stay up-to-date with the latest regulatory changes
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Advanced technology and a team of experts to provide tailored, personalized solutions
-
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">How PMBS Can Help
+                        <h3 class="service-details__title service-details__details__title">Streamlined Supply Management:
 </h3><!-- /.service-details__title -->
-                        <p class="service-details__text">Pure Medical Billing Solutions recognizes the significance of eligibility and benefits verification and strives to give clients speedy and effective solutions. Our team of experts has extensive experience in the medical billing industry and uses advanced technology to verify insurance information accurately and quickly. Our comprehensive services can help healthcare providers maximize financial performance and ensure timely payment.
+                        <p class="service-details__text">Running out of essential medical supplies can disrupt the smooth functioning of any practice. Our virtual assistants take charge of supply management, diligently monitoring inventory levels, and promptly ordering necessary items through electronic health record (EHR)/electronic medical record (EMR)/human resource management (HRM) systems. By ensuring a steady supply of vital resources, we help healthcare professionals avoid interruptions and maintain optimal patient care.
+
+</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Personalized Follow-ups and Check-ins:
+</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Post-appointment follow-ups play a vital role in enhancing patient satisfaction and overall outcomes. Our virtual assistants provide personalized follow-up services, checking on patients after their appointments to address any concerns or queries they may have. By demonstrating genuine care and attention, we help foster long-term patient loyalty and satisfaction.
+
+</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Customized Services Tailored to Your Practice:
+</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">We understand that each medical practice has unique requirements and preferences. Therefore, we offer customized virtual assistance services based on comprehensive training and mutual agreement. Whether it involves specialized administrative tasks or specific software utilization, our virtual assistants are adaptable and dedicated to meeting your practice’s specific needs.
+
+</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Efficient Prescription Refill Management:
+</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Managing prescription refills can be time-consuming and require attention to detail. Our virtual assistants handle prescription refill requests efficiently, ensuring that patients receive their medications on time. By coordinating with pharmacies and following established protocols, we provide seamless prescription management, allowing medical practitioners to focus on patient care.
+
+</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Efficient Email and e-Fax Management:
+</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Staying on top of a flooded inbox can be a challenge for busy healthcare professionals. Our virtual assistants efficiently manage email and e-fax communications, promptly responding to messages and organizing your inbox. By filtering and prioritizing incoming communications, we ensure that urgent matters receive immediate attention, while non-essential or spam emails are efficiently sorted.
+
+</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Thorough Insurance Verification:
+</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Navigating the complex landscape of insurance claims and verification can be overwhelming. Our virtual assistants are skilled in conducting thorough insurance verifications, ensuring that accurate information is obtained and processed. By taking care of insurance-related tasks, we alleviate the administrative burden on medical practitioners, allowing them to dedicate more time to patient care.
+
+</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Prompt Medical Transcription:
+</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Accurate and timely medical transcription is essential for maintaining detailed patient records. Our virtual assistants possess expertise in medical transcription, converting dictated patient notes into written documentation. With a keen eye for detail and adherence to confidentiality protocols, our team ensures that patient records are accurately transcribed, enabling easy access and reference in the future.
+
+</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Strict Adherence to HIPAA Regulations:
+</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Patient privacy and data security are of utmost importance in the healthcare industry. Our virtual assistants are well-versed in the Health Insurance Portability and Accountability Act (HIPAA) regulations and adhere to strict protocols to safeguard patient information. You can trust that our team will maintain the highest standards of confidentiality and data protection in all our virtual assistance services.
+
+</p><!-- /.service-details__text -->
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Prompt Medical Transcription:
+</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">We understand the importance of a smooth transition and integration of virtual assistance services with your existing systems. Our team works closely with your practice to ensure seamless integration, whether it involves electronic health records (EHR), practice management software, or communication platforms. We strive to minimize disruptions and provide a seamless virtual assistance experience.
+
+</p><!-- /.service-details__text -->
+                        <p class="service-details__text">At Pure Medical Billing Solutions, we are dedicated to supporting medical practitioners in optimizing their practices and delivering exceptional patient care. With our comprehensive virtual assistance services, healthcare professionals can offload administrative burdens and focus on what matters most – their patients. Trust our skilled virtual assistants to streamline your practice’s operations, enhance productivity, and elevate the overall patient experience. Contact us today to learn more about our tailored virtual assistance solutions for your medical practice.
 
 </p><!-- /.service-details__text -->
                     </div>
@@ -458,30 +361,9 @@ Advanced technology and a team of experts to provide tailored, personalized solu
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
     </a>
 
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="assets/vendors/chart/chart.js"></script>
-    <!-- template js -->
-    <script src="assets/js/insuba.js"></script>
+    <?php
+    include 'includes/scripts.php';
+    ?>
 </body>
 
 </html>

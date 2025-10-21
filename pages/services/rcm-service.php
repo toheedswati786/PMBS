@@ -1,72 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Core Services || Pure Medical Billing Solutions</title>
-
-    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-    <link
-      href="../css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="../css2-1?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="../css2-2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="../css2-3?family=Homemade+Apple&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      rel="stylesheet"
-      href="assets/vendors/bootstrap/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/bootstrap-select/bootstrap-select.min.css"
-    />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/nouislider/nouislider.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/nouislider/nouislider.pips.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css"
-    />
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/vendors/insuba-icons/style.css" />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/owl-carousel/css/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/owl-carousel/css/owl.theme.default.min.css"
-    />
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/insuba.css" />
+<?php
+    include 'includes/links.php';
+    ?>
   </head>
 
   <body class="custom-cursor">
@@ -142,57 +81,9 @@
         </div>
         <!-- /.topbar -->
 
-        <header
-          class="main-header main-header--one sticky-header sticky-header--normal"
-        >
-          <div class="container-fluid">
-            <div class="main-header__inner">
-              <div class="main-header__logo logo-retina">
-                <a href="index.html">
-                  <img
-                    src="assets/images/logo-dark.png"
-                    alt="Insuba HTML"
-                    width="372"
-                  />
-                </a>
-              </div>
-              <!-- /.main-header__logo -->
-              <div class="main-header__right">
-                <div class="mobile-nav__btn mobile-nav__toggler">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-                <!-- /.mobile-nav__toggler -->
-                <nav class="main-header__nav main-menu">
-                  <ul class="main-menu__list">
-                    <li>
-                      <a href="index.html">Home</a>
-                    </li>
-
-                    <li>
-                      <a href="about.html">About Us</a>
-                    </li>
-
-                    <li>
-                      <a href="services.html">Services </a>
-                    </li>
-
-                    <li>
-                      <a href="faq.html">FAQ</a>
-                    </li>
-                    <li>
-                      <a href="contact.php">Contact</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-              <!-- /.main-header__right -->
-            </div>
-            <!-- /.main-header__inner -->
-          </div>
-          <!-- /.container-fluid -->
-        </header>
+        <?php
+                include 'includes/header.php';
+            ?>
         <!-- /.main-header -->
       </div>
 
@@ -1039,30 +930,8 @@
         ><span class="scroll-to-top__inner"></span
       ></span>
     </a>
-
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="assets/vendors/chart/chart.js"></script>
-    <!-- template js -->
-    <script src="assets/js/insuba.js"></script>
+    <?php
+    include 'includes/scripts.php';
+    ?>
   </body>
 </html>

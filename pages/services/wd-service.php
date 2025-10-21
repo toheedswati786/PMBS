@@ -1,43 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-      Core Services || Pure Medical Billing Solutions
-    </title>
-
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/images/favicon.png"
-    />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="../css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-1?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link href="../css2-3?family=Homemade+Apple&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css">
-    <link rel="stylesheet" href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css">
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css">
-    <link rel="stylesheet" href="assets/vendors/insuba-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/insuba.css">
+<?php
+    include 'includes/links.php';
+    ?>
 </head>
 
 <body class="custom-cursor">
@@ -93,145 +62,156 @@
                 </div><!-- /.container-fluid -->
             </div><!-- /.topbar -->
 
-            <header class="main-header main-header--one sticky-header sticky-header--normal">
-                <div class="container-fluid">
-                    <div class="main-header__inner">
-                        <div class="main-header__logo logo-retina">
-                            <a href="index.html">
-                                <img src="assets/images/logo-dark.png" alt="Insuba HTML" width="372">
-                            </a>
-                        </div><!-- /.main-header__logo -->
-                        <div class="main-header__right">
-                            <div class="mobile-nav__btn mobile-nav__toggler">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div><!-- /.mobile-nav__toggler -->
-                            <nav class="main-header__nav main-menu">
-                                <ul class="main-menu__list">
-                                    <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-
-
-                                    <li>
-                                        <a href="about.html">About Us</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="services.html">Services </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="faq.html">FAQ</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.php">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div><!-- /.main-header__right -->
-                    </div><!-- /.main-header__inner -->
-                </div><!-- /.container-fluid -->
-            </header><!-- /.main-header -->
+                        <?php
+                include 'includes/header.php';
+            ?>
         </div>
 
         <section class="service-details section-space-top section-space-bottom2">
             <div class="container">
-                <center><h1 style="font-weight: 600;">Efficient Accounts Receivable in Medical Billing</h1></center>
+                <center><h1 style="font-weight: 600;">Web Designing & Development</h1></center>
                 <div class="service-details__content">
                     <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">Intro</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">Healthy revenue flow is the lifeline of any healthcare facility and this explains the need for efficient Accounts Receivable in medical billing. However, with the involvement of multiple stakeholders and the ever-increasing complex nature of the healthcare industry, AR can be a drain on the resources of healthcare facilities. Most medical practices are understaffed to handle the plethora of backend tasks necessary to cut down costs, reduce medical billing errors, and improve cash flow, and as a consequence, their focus on patient care gets diluted.</p><!-- /.service-details__text -->
+                        <p class="service-details__text">Welcome to Pure Medical Billing Solutions, where we turn your digital vision into reality through exceptional web design and development. Our mission is to create stunning, user-friendly websites and portfolios that not only capture attention but also drive results. Whether you’re launching a new brand, revamping your online presence, or showcasing your work, we have the expertise to deliver high-quality, tailored solutions.</p><!-- /.service-details__text -->
                     </div>
-                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">What is Accounts Receivable in Medical Billing?</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">The term “accounts receivable” is used to describe the unpaid balance due from clients such as patients or insurance companies for medical care provided. Accounts receivable are an important part of a medical practice’s financial success, as it serves as a significant source of cash flow. It is an important component of revenue cycle management in the healthcare industry.</p><!-- /.service-details__text -->
-                        <p class="service-details__text">At PMBS, we have devised the ideal way to deliver customer-centric medical accounts receivable services to enable healthcare businesses to identify and mitigate all causes of revenue leakage.</p><!-- /.service-details__text -->
-                    </div>
-                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">Importance of Accounts Receivable in Medical Billing</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">Accurate records of accounts receivable enable healthcare providers to anticipate their cash flow, which is essential for effective budgeting and forecasting. AR management is important for healthcare providers because it streamlines the medical billing process and makes sure their accounts receivable is paid on time and their finances are safe.</p><!-- /.service-details__text -->
-                        <p class="service-details__text">According to recent studies, the average Accounts Receivable in the healthcare industry ranges between 30-120 days. This means that healthcare providers may have to wait several months to receive payment for their services.</p><!-- /.service-details__text -->
-                        <p class="service-details__text">As a leading medical billing company, our results-driven collection procedure helps generate faster payments across the entire credit portfolio of your healthcare facility. You can also outsource accounts receivable services to us for customized solutions for receivables that demand specialized treatment and strategic follow-ups.</p><!-- /.service-details__text -->
-                    </div>
-                    <h2 style="padding-bottom: 15px; font-weight: 500 !important" class="fadeInUp wow" data-wow-duration="1500ms">
-                        Questions :
+                    <h2 style="padding-bottom: 15px; font-weight: 600 !important" class="fadeInUp wow" data-wow-duration="1500ms">
+                        Our Comprehensive Services
                     </h2>
                     <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <ol>
-                            <li>
-                                <h3 class="service-details__title service-details__details__title">How Accounts Receivable Works in Medical Billing?</h3><!-- /.service-details__title -->
-                                <p class="service-details__text">This process usually involves submitting accurate claims, verifying patient demographics and insurance information, collecting payments from both insurers and patients, and coding medical services correctly. As soon as the claims are processed, healthcare providers get paid for their services.AR management involves tracking, monitoring, and collecting payments for these services.
-
-</p><!-- /.service-details__text -->
-                            </li>
-                            <li>
-                                <h3 class="service-details__title service-details__details__title">When to Address Accounts Receivable in Medical Billing?</h3><!-- /.service-details__title -->
-                                <p class="service-details__text">As healthcare providers, it is essential to closely monitor accounts receivable in order to maximize revenue and prevent costly denied claims or late fees. Healthcare providers must address accounts receivable issues in a timely manner to prevent their patients from becoming delinquent on payments and creating a negative impact on their bottom line.
-
-</p><!-- /.service-details__text -->
-                            </li>
-                            <li>
-                                <h3 class="service-details__title service-details__details__title">What to Consider When Managing Accounts Receivable in Medical Billing?</h3><!-- /.service-details__title -->
-                                <p class="service-details__text">To manage accounts receivable in medical billing successfully, healthcare providers must consider various issues, including insurance coverage, patient responsibilities, coding and billing accuracy, and follow-up on denied claims. By outsourcing accounts receivable services to us, you get full control over the complicated and resource-hungry processes just by paying a fraction of your current costs. Contact Us to Learn more.
-
-</p><!-- /.service-details__text -->
-                            </li>
-                            <li>
-                                <h3 class="service-details__title service-details__details__title">Why Effective Accounts Receivable Management is Critical for Healthcare Providers?</h3><!-- /.service-details__title -->
-                                <p class="service-details__text">Achieving effective AR management requires thoughtful and comprehensive strategies, including leveraging automation technology, improving communication with payers, establishing fair and consistent processes for patient collections, and better utilizing staff resources. By utilizing modern technology and solutions, such as e-billing, healthcare providers are able to streamline their billing process.
-
-</p><!-- /.service-details__text -->
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">The scope of our Accounts Receivable Outsourcing Services is as follows:</h3><!-- /.service-details__title -->
+                        <h3 class="service-details__title service-details__details__title">Custom Web Design:</h3><!-- /.service-details__title -->
                         <ul>
                             <li>
-                                <p class="service-details__text">Invoice creations as per the service delivery and Estimates</p>
-                            </li>
-                            <li>
                                 <p class="service-details__text">
-                                    Invoice update onto the systems
+                                    <b>Brand-Centric Designs: </b>We craft custom designs that reflect your brand’s personality and values. Our designs are aesthetically pleasing and aligned with your business objectives.
                                 </p>
                             </li>
                             <li>
                                 <p class="service-details__text">
-Accounts receivable details updated on time
-
+                                    <b>User Experience Focus: </b>Our design process emphasizes user experience (UX) to ensure that your website is intuitive, easy to navigate, and engaging.
                                 </p>
                             </li>
                             <li>
                                 <p class="service-details__text">
-Collection of receivables on a regular basis
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Dealing with incomplete payments by raising appropriate queries
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Preparation of account statements and updating clients for reconciliation
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-Cash Flow prediction based on outstanding receivables
-
+                                    <b>Mobile-First Approach: </b>All our designs are fully responsive, ensuring a seamless experience across desktops, tablets, and smartphones.
                                 </p>
                             </li>
                         </ul>
                     </div>
                     <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">Solutions for Healthcare Providers.</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">There are a number of medical billing solutions that can help doctors and physicians keep track of their accounts receivable. These include outsourcing to a medical billing company, implementing electronic medical records, and regularly monitoring and following up on denied claims. By implementing these solutions, healthcare providers can improve their financial stability and receive timely payment for their services.</p><!-- /.service-details__text -->
+                        <h3 class="service-details__title service-details__details__title">Web Development:</h3><!-- /.service-details__title -->
+                        <ul>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Cutting-Edge Technology: </b>Utilizing the latest technologies and frameworks, we build websites that are fast, secure, and scalable.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Custom Functionality: </b>We develop custom features tailored to your needs, including e-commerce solutions, interactive elements, and content management systems (CMS).
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Performance Optimization: </b>We focus on optimizing your website’s performance to enhance load times and overall user experience.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Portfolio Creation:</h3><!-- /.service-details__title -->
+                        <ul>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Showcase Your Work: </b>We design and develop portfolios that highlight your best work in a professional and engaging manner.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Flexible Templates: </b>Choose from customizable templates or opt for a completely bespoke design to perfectly fit your style and requirements.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Easy Updates: </b>Manage and update your portfolio effortlessly with user-friendly interfaces and content management options.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Ongoing Support & Maintenance:</h3><!-- /.service-details__title -->
+                        <ul>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Regular Updates: </b>Keep your website up-to-date with the latest features and security patches through our regular maintenance services.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Technical Support: </b>Our dedicated support team is available to troubleshoot any issues and ensure your website runs smoothly.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Performance Tracking: </b>We provide analytics and performance reports to help you understand user behavior and optimize your site’s effectiveness.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <h2 style="padding-bottom: 15px; font-weight: 600 !important" class="fadeInUp wow" data-wow-duration="1500ms">
+                        Our Approach
+                    </h2>
+                        <p class="service-details__text" style="padding-bottom: 13px;">At Pure Medical Billing Solutions, we believe in a collaborative approach. We work closely with you throughout the entire project, from initial consultation to final delivery, ensuring that your vision is realized and expectations are exceeded.</p><!-- /.service-details__text --> 
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <ul>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Consultation & Planning: </b>We start with a thorough consultation to understand your needs and objectives, followed by a detailed planning phase.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Design & Development: </b>Our team then proceeds with the design and development phases, keeping you informed and involved at each stage.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Testing & Launch: </b>Before launch, we rigorously test your website to ensure functionality, performance, and compatibility.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Feedback & Iteration: </b>We value your feedback and make any necessary adjustments to ensure your complete satisfaction.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <h2 style="padding-bottom: 15px; font-weight: 600 !important" class="fadeInUp wow" data-wow-duration="1500ms">
+                        Why Choose Us?
+                    </h2>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <ul>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Expert Team: </b>Our skilled designers and developers bring years of experience and a passion for creating exceptional digital experiences.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Tailored Solutions: </b>We provide solutions that are specifically designed to meet your unique needs and goals.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+                                    <b>Client-Centric Approach: </b>Your satisfaction is our top priority. We focus on clear communication and responsive service to ensure a smooth project experience.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">Get in Touch</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">
+                            Ready to take your online presence to the next level? Contact us today to discuss your web design and development needs. Let’s work together to create a website or portfolio that truly stands out and delivers results.
+                        </p>
                     </div>
                 </div><!-- /.service-details__content -->
             </div><!-- /.container -->
@@ -435,30 +415,9 @@ Cash Flow prediction based on outstanding receivables
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
     </a>
 
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="assets/vendors/chart/chart.js"></script>
-    <!-- template js -->
-    <script src="assets/js/insuba.js"></script>
+    <?php
+    include 'includes/scripts.php';
+    ?>
 </body>
 
 </html>

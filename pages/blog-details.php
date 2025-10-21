@@ -1,52 +1,12 @@
-﻿<?php
-if(isset($_GET['email']) && !empty(isset($_GET['email']))){
-    $email = $_GET['email'];
-} else{
-    $email = "";
-}
-?>
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <title>
-      Contact Us || Pure Medical Billing Solutions
-    </title>
-
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/images/favicon.png"
-    />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="../css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-1?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link href="../css2-3?family=Homemade+Apple&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css">
-    <link rel="stylesheet" href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css">
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css">
-    <link rel="stylesheet" href="assets/vendors/insuba-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/insuba.css">
+    <?php
+    include "includes/links.php";
+    ?>
 </head>
 
 <body class="custom-cursor">
@@ -68,7 +28,7 @@ if(isset($_GET['email']) && !empty(isset($_GET['email']))){
                             <li>
                                 <div class="topbar__info__icon-box topbar__info__icon--email">
                                     <span class="topbar__info__icon">
-                                        <i class="fas fa-envelope"></i>
+                                        <i class="fas fa-envelope"></i> 
                                     </span>
                                 </div>
                                 <a href="mailto:info@puremedicalbilling.com">info@puremedicalbilling.com</a>
@@ -102,53 +62,20 @@ if(isset($_GET['email']) && !empty(isset($_GET['email']))){
                 </div><!-- /.container-fluid -->
             </div><!-- /.topbar -->
 
-            <header class="main-header main-header--one sticky-header sticky-header--normal">
-                <div class="container-fluid">
-                    <div class="main-header__inner">
-                        <div class="main-header__logo logo-retina">
-                            <a href="index.html">
-                                <img src="assets/images/logo-dark.png" alt="Insuba HTML" width="372">
-                            </a>
-                        </div><!-- /.main-header__logo -->
-                        <div class="main-header__right">
-                            <div class="mobile-nav__btn mobile-nav__toggler">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div><!-- /.mobile-nav__toggler -->
-                            <nav class="main-header__nav main-menu">
-                                <ul class="main-menu__list">
-                                    <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-
-
-                                    <li>
-                                        <a href="about.html">About Us</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="services.html">Services </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="faq.html">FAQ</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.php">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div><!-- /.main-header__right -->
-                    </div><!-- /.main-header__inner -->
-                </div><!-- /.container-fluid -->
-            </header><!-- /.main-header -->
+            <?php
+            include 'includes/header.php';
+            ?>
         </div><!-- /.header -->
         <section class="page-header">
             <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-bg.png);"></div><!-- /.page-header__bg -->
             <div class="container">
                 <div class="page-header__content">
-                    <h2 class="page-header__title">Contact Us</h2>
+                    <h2 class="page-header__title">Blog Details</h2>
+                    <ul class="insuba-breadcrumb list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><span>Our Blog</span></li>
+                        <li><span>Blog Details</span></li>
+                    </ul><!-- /.insuba-breadcrumb list-unstyled -->
                 </div><!-- /.page-header__content -->
             </div><!-- /.container -->
             <img src="assets/images/resources/page-header-1-1.png" alt="image" class="page-header__image">
@@ -158,78 +85,125 @@ if(isset($_GET['email']) && !empty(isset($_GET['email']))){
             <div class="page-header__shape-four"></div><!-- /.page-header__shape-three -->
         </section><!-- /.page-header -->
 
-        <section class="contact section-space">
+        <section class="blog-details-page section-space-top section-space-bottom2">
             <div class="container">
-                <div class="contact__wrapper">
-                    <div class="contact__call">
-                        <span class="contact__call__icon">
-                            <i class="icon-phone-ringing"></i>
-                        </span><!-- /.contact__call__icon -->
-                        <div class="contact__call__content">
-                            <h4 class="contact__call__title">Phone Number</h4><!-- /.contact__call__title -->
-                            <a href="tel:+1707948213" class="contact__call__number">+1(707)948-213</a><!-- /.contact__call__number -->
-                        </div><!-- /.contact__call__content -->
-                    </div><!-- /.contact__call -->
-                    <div class="contact__inner">
-                        <div class="contact__row row gutter-y-50 align-items-center">
-                            <div class="contact__form-col">
-                                <div class="contact__content">
-                                    <div class="contact__tab-box tabs-box">
-                                        <div class="tabs-content">
-                                            <div class="tab active-tab fadeInUp animated" data-wow-delay="200ms" id="contact001" style="display: block;">
-                                                <div class="contact__tab-content">
-                                                    <h3 class="contact__title">Get in touch with us</h3><!-- /.contact__title -->
-                                                    <form class="contact__form contact-form-validated" action="inc/sendemail.html">
-                                                        <div class="contact__form__group">
-                                                            <div class="contact__form__control contact__form__control--full">
-                                                                <input type="text" name="name" placeholder="Your Name *">
-                                                            </div><!-- /.contact__form__control contact__form__control--full -->
-                                                            <div class="contact__form__control contact__form__control--full">
-                                                                <input type="email" name="email" placeholder="Your Email *" value="<?php echo $email?>">
-                                                            </div>
-                                                            <div class="contact__form__control contact__form__control--full">
-                                                                <input type="text" name="message" placeholder="Your Message *">
-                                                            </div>
-                                                            <div class="contact__form__control contact__form__control--full">
-                                                                <button type="submit" class="insuba-btn insuba-btn--base">
-                                                                    <span>Submit</span>
-                                                                    <span class="insuba-btn__icon-box">
-                                                                        <span class="insuba-btn__icon"><i class="fas fa-arrow-right"></i></span>
-                                                                    </span>
-                                                                </button><!-- /.insuba-btn -->
-                                                            </div><!-- /.contact__form__control -->
-                                                        </div><!-- /.contact__form__group -->
-                                                    </form><!-- /.contact__form -->
-                                                </div><!-- /.contact__tab-content -->
-                                            </div>
-                                        </div><!-- /.tab-content -->
-                                    </div><!-- /.contact__tab-box -->
-                                </div><!-- /.contact__content -->
-                            </div><!-- /.contact__form-col -->
-                            <div class="contact__image-col">
-                                <div class="contact__image">
-                                    <img src="assets/images/contact/contact-3-1.jpg" alt="contact">
-                                </div><!-- /.contact__image -->
-                            </div><!-- /.contact__image-col -->
-                        </div><!-- /.row gutter-y-50 -->
-                        <div class="contact__inner__shape-box">
-                            <div class="contact__inner__shape"></div><!-- /.contact__image__shape -->
-                        </div><!-- /.contact__inner__shape-box -->
-                    </div><!-- /.contact__inner -->
-                </div><!-- /.contact__wrapper -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="blog-details">
+                            <div class="blog-card-three">
+                                <div class="blog-card-three__image wow fadeInUp" data-wow-duration="1500ms">
+                                    <img src="assets/images/blog/blog-l-1-1.jpg" alt="blog details">
+                                </div><!-- /.blog-card-three__image -->
+                                <div class="blog-card-three__content">
+                                    <ul class="blog-card-three__meta list-unstyled wow fadeInUp" data-wow-duration="1500ms">
+                                        <li>
+                                            <a href="blog-details-right.html" class="blog-card-three__category">House</a><!-- /.blog-card-three__category -->
+                                        </li>
+                                        <li>
+                                            <div class="blog-card-three__admin">
+                                                <img src="assets/images/blog/blog-admin-1-1.jpg" alt="Mike" class="blog-card-three__admin__image">
+                                                <h4 class="blog-card-three__admin__name">Admin: <a href="#">Mike</a></h4><!-- /.blog-card-three__admin__name -->
+                                            </div><!-- /.blog-card-three__admin -->
+                                        </li>
+                                        <li>
+                                            <div class="blog-card-three__comment">
+                                                <span class="blog-card-three__comment__icon"><i class="icon-chat"></i></span>
+                                                <a href="#" class="blog-card-three__comment__text">Comment (5)</a>
+                                            </div><!-- /.blog-card-three__comment -->
+                                        </li>
+                                        <li>
+                                            <div class="blog-card-three__date">
+                                                <span class="blog-card-three__date__icon"><i class="fas fa-calendar-alt"></i></span>
+                                                <p class="blog-card-three__date__text">02 Sep 2024</p>
+                                            </div><!-- /.blog-card-three__date -->
+                                        </li>
+                                    </ul><!-- /.blog-card-three__meta list-unstyled -->
+                                    <h3 class="blog-card-three__title wow fadeInUp" data-wow-duration="1500ms">Provides Financial Protection and Peace Of Mind Against
+                                        While Maintaining Financial Events.</h3><!-- /.blog-card-three__title -->
+                                    <div class="blog-card-three__description wow fadeInUp" data-wow-duration="1500ms">
+                                        <p class="blog-card-three__text">Exposing new ways to evolve our design language spinning our wheels, no scraps hit the floor helicopter view. Translating our vision of having a market leading platfrom workflow ecosystem. Root-and-branch review cloud strategy.</p><!-- /.blog-card-three__text -->
+                                        <p class="blog-card-three__text">There are many variations of passages agency we have covered many special events such as fireworks, fairs, parades, races, walks, a Lorem Ipsum Fasts injecte dedicated product design team can help you achieve your business goals. Whether you need to craft an idea for a completely new product or elevate the quality of an existing solution, we’ll help you to create a product that is laser targeted to your users’ needs and business results</p><!-- /.blog-card-three__text -->
+                                        <p class="blog-card-three__text">Finance we need to leverage our synergies we need to harvest synergy effects, for drive awareness to increase engagement it's not hard guys low engagement gage.</p><!-- /.blog-card-three__text -->
+                                    </div><!-- /.blog-card-three__description -->
+                                </div><!-- /.blog-card-three__content -->
+                            </div><!-- /.blog-card-three -->
+                            <div class="blog-details__meta wow fadeInUp" data-wow-duration="1500ms">
+                                <div class="blog-details__tags">
+                                    <h4 class="blog-details__meta__title">Tags</h4><!-- /.blog-details__meta__title -->
+                                    <div class="blog-details__tags__box">
+                                        <a href="blog-details-right.html" class="blog-details__tags__btn">House</a>
+                                        <a href="blog-details-right.html" class="blog-details__tags__btn">Life</a>
+                                    </div><!-- /.blog-details__tag__box-->
+                                </div><!-- /.blog-details__tags -->
+                                <div class="blog-details__categories">
+                                    <h4 class="blog-details__meta__title">categories</h4><!-- /.blog-details__meta__title -->
+                                    <div class="blog-details__categories__box">
+                                        <a href="blog-details-right.html" class="blog-details__categories__btn">Insurance</a>
+                                        <a href="blog-details-right.html" class="blog-details__categories__btn">Travel</a>
+                                    </div><!--blog-details__categories__box -->
+                                </div><!-- /.blog-details__categories -->
+                            </div><!-- /.blog-details__meta -->
+                            <div class="comments-one">
+                                <h3 class="comments-one__title wow fadeInUp" data-wow-duration="1500ms">Comments (2)</h3><!-- /.comments-one__title -->
+                                <ul class="list-unstyled comments-one__list">
+                                    <li class="comments-one__card wow fadeInUp" data-wow-duration="1500ms">
+                                        <div class="comments-one__image">
+                                            <img src="assets/images/blog/blog-comment-1-1.png" alt="Kevin martin">
+                                        </div><!-- /.comments-one__image -->
+                                        <div class="comments-one__content">
+                                            <h3 class="comments-one__name">Randy Marshal</h3><!-- /.comments-one__name -->
+                                            <p class="comments-one__text">Lorem ipsum is simply free textdolor sit amet, consectetur notted adipisicing elit sed iusmod Lorem ipsum dolor sit amet, conse dtetur adipi sicing.</p><!-- /.comments-one__text -->
+                                            <div class="comments-one__bottom">
+                                                <p class="comments-one__date">November 16, 2018 at 4:31 am</p>
+                                                <button type="button" class="comments-one__reply">Reply</button><!-- /.comments-one__reply -->
+                                            </div><!-- /.comments-one__bottom -->
+                                        </div><!-- /.comments-one__content -->
+                                    </li><!-- /.comments-one__card -->
+                                    <li class="comments-one__card wow fadeInUp" data-wow-duration="1500ms">
+                                        <div class="comments-one__image">
+                                            <img src="assets/images/blog/blog-comment-1-2.png" alt="Kevin martin">
+                                        </div><!-- /.comments-one__image -->
+                                        <div class="comments-one__content">
+                                            <h3 class="comments-one__name">Tracy Curtis</h3><!-- /.comments-one__name -->
+                                            <p class="comments-one__text">Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var.</p><!-- /.comments-one__text -->
+                                            <div class="comments-one__bottom">
+                                                <p class="comments-one__date">December 16, 2018 at 4:31 am</p>
+                                                <button type="button" class="comments-one__reply">Reply</button><!-- /.comments-one__reply -->
+                                            </div><!-- /.comments-one__bottom -->
+                                        </div><!-- /.comments-one__content -->
+                                    </li><!-- /.comments-one__card -->
+                                </ul><!-- /.list-unstyled comments-one__list -->
+                            </div><!-- /.comments-one -->
+                            <div class="blog-details__form comments-form wow fadeInUp" data-wow-duration="1500ms">
+                                <h3 class="blog-details__form__title comments-form__title wow fadeInUp" data-wow-duration="1500ms">Leave a Comment</h3><!-- /.blog-details__form__title -->
+                                <form action="assets/inc/sendemail.html" class="blog-details__form__form contact-form-validated form-one">
+                                    <div class="form-one__group">
+                                        <div class="form-one__control wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                                            <input type="text" name="name" placeholder="Your Name">
+                                        </div><!-- /.form-one__control -->
+                                        <div class="form-one__control wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="50ms">
+                                            <input type="email" name="email" placeholder="Your Email">
+                                        </div><!-- /.form-one__control -->
+                                        <div class="form-one__control form-one__control--full wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                                            <textarea name="message" placeholder="Write Message . ."></textarea>
+                                        </div><!-- /.form-one__control -->
+                                        <div class="form-one__control form-one__control--full wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="150ms">
+                                            <button type="submit" class="insuba-btn">
+                                                <span>Post Comment</span>
+                                                <span class="insuba-btn__icon-box">
+                                                    <span class="insuba-btn__icon"><i class="fas fa-arrow-right"></i></span>
+                                                </span>
+                                            </button><!-- /.insuba-btn -->
+                                        </div><!-- /.form-one__control -->
+                                    </div><!-- /.form-one__group -->
+                                </form><!-- /.blog-details__form__form -->
+                                <div class="result"></div><!-- /.result -->
+                            </div><!-- /.blog-details__form -->
+                        </div><!-- /.blog-details -->
+                    </div><!-- /.col-lg-8 -->
+                </div><!-- /.row -->
             </div><!-- /.container -->
-            <img src="assets/images/shapes/contact-umbrella.png" alt="umbrella" class="contact__umbrella-image">
-            <img src="assets/images/shapes/contact-call.png" alt="umbrella" class="contact__call-image">
-        </section><!-- /.contact section-space -->
-
-        <section class="contact-map section-space-bottom2">
-            <div class="container-fluid">
-                <div class="google-map google-map__contact">
-                    <iframe title="template google map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7055.749590927844!2d-82.638182!3d27.844386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2e6a2b7850c2f%3A0x8dd58ca8e357d5cc!2s7901%204th%20St%20N%20%234878%2C%20St.%20Petersburg%2C%20FL%2033702%2C%20USA!5e0!3m2!1sen!2s!4v1758550969096!5m2!1sen!2s" class="map__contact" allowfullscreen=""></iframe>
-                </div>
-                <!-- /.google-map -->
-            </div><!-- /.container-fluid -->
-        </section><!-- /.contact-map -->
+        </section><!-- /.blog-details-page -->
 
         <div class="newsletter @@extraClassName">
             <div class="container">
@@ -429,30 +403,9 @@ if(isset($_GET['email']) && !empty(isset($_GET['email']))){
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
     </a>
 
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="assets/vendors/chart/chart.js"></script>
-    <!-- template js -->
-    <script src="assets/js/insuba.js"></script>
+<?php
+    include "includes/scripts.php";
+    ?>
 </body>
 
 </html>

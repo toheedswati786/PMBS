@@ -1,40 +1,17 @@
-﻿<!DOCTYPE html>
+<?php 
+$dir = "http://localhost/pmbs/";
+?>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-      Core Services || Pure Medical Billing Solutions
-    </title>
 
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/images/favicon.png"
-    />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="../css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-1?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link href="../css2-3?family=Homemade+Apple&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css">
-    <link rel="stylesheet" href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css">
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css">
-    <link rel="stylesheet" href="assets/vendors/insuba-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
+    <?php
+    include 'includes/links.php';
+    ?>
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/insuba.css">
@@ -93,192 +70,107 @@
                 </div><!-- /.container-fluid -->
             </div><!-- /.topbar -->
 
-            <header class="main-header main-header--one sticky-header sticky-header--normal">
-                <div class="container-fluid">
-                    <div class="main-header__inner">
-                        <div class="main-header__logo logo-retina">
-                            <a href="index.html">
-                                <img src="assets/images/logo-dark.png" alt="Insuba HTML" width="372">
-                            </a>
-                        </div><!-- /.main-header__logo -->
-                        <div class="main-header__right">
-                            <div class="mobile-nav__btn mobile-nav__toggler">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div><!-- /.mobile-nav__toggler -->
-                            <nav class="main-header__nav main-menu">
-                                <ul class="main-menu__list">
-                                    <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-
-
-                                    <li>
-                                        <a href="about.html">About Us</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="services.html">Services </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="faq.html">FAQ</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.php">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div><!-- /.main-header__right -->
-                    </div><!-- /.main-header__inner -->
-                </div><!-- /.container-fluid -->
-            </header><!-- /.main-header -->
+            <?php
+            include 'includes/header.php';
+            ?>
         </div>
 
         <section class="service-details section-space-top section-space-bottom2">
             <div class="container">
-                <center><h1 style="font-weight: 600;">Pure Medical Billing Solutions – Your Partner in Effective Denial Management</h1></center>
+                <center><h1 style="font-weight: 600;">Efficient Accounts Receivable in Medical Billing</h1></center>
                 <div class="service-details__content">
                     <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
                         <h3 class="service-details__title service-details__details__title">Intro</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">Denial management is an important part of medical billing that can greatly impact how much money healthcare providers make. At PMBS, we know how hard and frustrating it is when a claim is denied, and we want to help providers improve their revenue cycle by managing denials well.</p><!-- /.service-details__text -->
+                        <p class="service-details__text">Healthy revenue flow is the lifeline of any healthcare facility and this explains the need for efficient Accounts Receivable in medical billing. However, with the involvement of multiple stakeholders and the ever-increasing complex nature of the healthcare industry, AR can be a drain on the resources of healthcare facilities. Most medical practices are understaffed to handle the plethora of backend tasks necessary to cut down costs, reduce medical billing errors, and improve cash flow, and as a consequence, their focus on patient care gets diluted.</p><!-- /.service-details__text -->
                     </div>
                     <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">Simplifying Denial Management for Healthcare Providers</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">Denial management can be difficult and time-consuming, but with PMBS, you can be certain that your denied claims are in good hands. Our team of specialists is familiar with the most recent best practices for denial management and has a track record of assisting healthcare providers in recovering lost revenue.</p><!-- /.service-details__text -->
-                        <p class="service-details__text">Denial management is essential to medical billing because it ensures that healthcare providers get paid what they are owed. According to the Healthcare Financial Management Association, the average healthcare provider experiences a denial rate of 5-10% of their total claims submitted. This can cause providers to lose a lot of money, so managing denials is important in staying financially stable.</p><!-- /.service-details__text -->
+                        <h3 class="service-details__title service-details__details__title">What is Accounts Receivable in Medical Billing?</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">The term “accounts receivable” is used to describe the unpaid balance due from clients such as patients or insurance companies for medical care provided. Accounts receivable are an important part of a medical practice’s financial success, as it serves as a significant source of cash flow. It is an important component of revenue cycle management in the healthcare industry.</p><!-- /.service-details__text -->
+                        <p class="service-details__text">At PMBS, we have devised the ideal way to deliver customer-centric medical accounts receivable services to enable healthcare businesses to identify and mitigate all causes of revenue leakage.</p><!-- /.service-details__text -->
                     </div>
                     <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">Comprehensive Denial Management Services</h3><!-- /.service-details__title -->
+                        <h3 class="service-details__title service-details__details__title">Importance of Accounts Receivable in Medical Billing</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">Accurate records of accounts receivable enable healthcare providers to anticipate their cash flow, which is essential for effective budgeting and forecasting. AR management is important for healthcare providers because it streamlines the medical billing process and makes sure their accounts receivable is paid on time and their finances are safe.</p><!-- /.service-details__text -->
+                        <p class="service-details__text">According to recent studies, the average Accounts Receivable in the healthcare industry ranges between 30-120 days. This means that healthcare providers may have to wait several months to receive payment for their services.</p><!-- /.service-details__text -->
+                        <p class="service-details__text">As a leading medical billing company, our results-driven collection procedure helps generate faster payments across the entire credit portfolio of your healthcare facility. You can also outsource accounts receivable services to us for customized solutions for receivables that demand specialized treatment and strategic follow-ups.</p><!-- /.service-details__text -->
+                    </div>
+                    <h2 style="padding-bottom: 15px; font-weight: 500 !important" class="fadeInUp wow" data-wow-duration="1500ms">
+                        Questions :
+                    </h2>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <ol>
+                            <li>
+                                <h3 class="service-details__title service-details__details__title">How Accounts Receivable Works in Medical Billing?</h3><!-- /.service-details__title -->
+                                <p class="service-details__text">This process usually involves submitting accurate claims, verifying patient demographics and insurance information, collecting payments from both insurers and patients, and coding medical services correctly. As soon as the claims are processed, healthcare providers get paid for their services.AR management involves tracking, monitoring, and collecting payments for these services.
+
+</p><!-- /.service-details__text -->
+                            </li>
+                            <li>
+                                <h3 class="service-details__title service-details__details__title">When to Address Accounts Receivable in Medical Billing?</h3><!-- /.service-details__title -->
+                                <p class="service-details__text">As healthcare providers, it is essential to closely monitor accounts receivable in order to maximize revenue and prevent costly denied claims or late fees. Healthcare providers must address accounts receivable issues in a timely manner to prevent their patients from becoming delinquent on payments and creating a negative impact on their bottom line.
+
+</p><!-- /.service-details__text -->
+                            </li>
+                            <li>
+                                <h3 class="service-details__title service-details__details__title">What to Consider When Managing Accounts Receivable in Medical Billing?</h3><!-- /.service-details__title -->
+                                <p class="service-details__text">To manage accounts receivable in medical billing successfully, healthcare providers must consider various issues, including insurance coverage, patient responsibilities, coding and billing accuracy, and follow-up on denied claims. By outsourcing accounts receivable services to us, you get full control over the complicated and resource-hungry processes just by paying a fraction of your current costs. Contact Us to Learn more.
+
+</p><!-- /.service-details__text -->
+                            </li>
+                            <li>
+                                <h3 class="service-details__title service-details__details__title">Why Effective Accounts Receivable Management is Critical for Healthcare Providers?</h3><!-- /.service-details__title -->
+                                <p class="service-details__text">Achieving effective AR management requires thoughtful and comprehensive strategies, including leveraging automation technology, improving communication with payers, establishing fair and consistent processes for patient collections, and better utilizing staff resources. By utilizing modern technology and solutions, such as e-billing, healthcare providers are able to streamline their billing process.
+
+</p><!-- /.service-details__text -->
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
+                        <h3 class="service-details__title service-details__details__title">The scope of our Accounts Receivable Outsourcing Services is as follows:</h3><!-- /.service-details__title -->
                         <ul>
                             <li>
+                                <p class="service-details__text">Invoice creations as per the service delivery and Estimates</p>
+                            </li>
+                            <li>
                                 <p class="service-details__text">
-                                    Appeal letter preparation and submission
+                                    Invoice update onto the systems
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Accounts receivable details updated on time
 
                                 </p>
                             </li>
                             <li>
                                 <p class="service-details__text">
-Resubmission of denied claims
+Collection of receivables on a regular basis
 
                                 </p>
                             </li>
                             <li>
                                 <p class="service-details__text">
-Analysis of denial trends and root cause analysis
+Dealing with incomplete payments by raising appropriate queries
 
                                 </p>
                             </li>
                             <li>
                                 <p class="service-details__text">
-Training and education on denial management best practices
+Preparation of account statements and updating clients for reconciliation
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="service-details__text">
+Cash Flow prediction based on outstanding receivables
 
                                 </p>
                             </li>
                         </ul>
                     </div>
                     <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">Get Back on Track with PMBS’s Denial Management Services
-</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">The denial management services from PMBS are meant to help you get back lost money and get your billing processes back on track. Whatever the reason, the majority of claim denials are due to human error. PMBS is staffed with the top medical billing and coding experts, all of whom have been hand-picked for their knowledge in the field.
-
-</p><!-- /.service-details__text -->
-                        <p class="service-details__text">These experts are always involved in ongoing staff education programs to ensure that they have the most up-to-date knowledge of billing and coding regulations.
-
-</p><!-- /.service-details__text -->
-                        <p class="service-details__text">Insurance companies generally maintain a list of operations or diagnostic combinations they will cover. PMBS maintains an up-to-date database of permitted pairings by various insurance providers. Our highly authorized coders ensure that the highest paid and highest approved mix of procedure and diagnosis codes is employed to achieve maximum pay.
-
-</p><!-- /.service-details__text -->
-                        <p class="service-details__text">Don’t let denied claims impact your revenue. Contact PMBS today to learn more about our denial management services.
-
-</p><!-- /.service-details__text -->
-                    </div>
-                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">The Importance of Effective Denial Management
-</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">The healthcare industry is constantly evolving, and with changes come new challenges. With the rise of high-deductible health plans and more rules from the government, it’s become common for healthcare providers to have their claims denied. The monetary impact of denied claims can be mitigated, and revenue maximized through efficient denial management.
-
-</p><!-- /.service-details__text -->
-                        <ul>
-                            <li>
-                                <p class="service-details__text">
-                                    To identify the reason for each denial
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-To reduce the cost to collect
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-For a seamless integration of software and efficient workflow to prevent the future recurrence of denial
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-To deal with denials within 48 hours of receipt
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-To study denial trends and patterns and identify the root cause of costly denials
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-To enhance the account collections and manage denials efficiently
-
-                                </p>
-                            </li>
-                            <li>
-                                <p class="service-details__text">
-To reduce manual work and effort involved in checking denial errors
-
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">Our Approach to Denial Management.
-</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">When it comes to dealing with denied claims, PMBS takes a holistic approach. To guarantee that your claims are being processed quickly and accurately, our team of specialists works together to determine the cause of denied claims, implement efficient solutions, and monitor your claims. Our goal is to help you recover the maximum possible revenue while improving your overall revenue cycle management
-
-</p><!-- /.service-details__text -->
-                    </div>
-                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">Identifying the Root Cause of Denied Claims.
-</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">Identifying the root cause of denied claims is essential to take the necessary steps to correct them and reduce further denials. We will analyze the data to pinpoint where adjustments need to be made, develop strategies to combat the recurrence of the same denials and work with you to ensure that all claims are processed accurately and efficiently. This allows us to implement targeted solutions that address your specific challenges.
-
-</p><!-- /.service-details__text -->
-                    </div>
-                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">Implementing Effective Solutions.
-</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">We’ve put together a special team with much experience in analytics and customer relations to do this. This could mean updating your billing and coding processes, negotiating with payers, and speaking up to make sure that claims are paid fairly and correctly.
-
-</p><!-- /.service-details__text -->
-                    </div>
-                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">Monitoring Claims for Maximum Efficiency.
-</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">We understand the importance of accurate and prompt reimbursement, so we have established a detailed and consistent process for reviewing all claims. To keep your revenue cycle running smoothly, we employ state-of-the-art tracking technology to monitor the development of your claims and spot any potential problems ahead of time.
-
-</p><!-- /.service-details__text -->
-                    </div>
-                    <div class="service-details__details wow fadeInUp" data-wow-duration="1500ms">
-                        <h3 class="service-details__title service-details__details__title">The Benefits of Working with a Denial Management Company.
-</h3><!-- /.service-details__title -->
-                        <p class="service-details__text">A denial management company can assist healthcare providers in many ways. These organizations have the skills and resources to extensively investigate denied claims and develop effective recovery tactics. They can also provide ongoing monitoring and support to prevent future denials. By working with a denial management company, healthcare providers can save time, improve their revenue cycle, and focus on giving their patients good care.
-
-</p><!-- /.service-details__text -->
+                        <h3 class="service-details__title service-details__details__title">Solutions for Healthcare Providers.</h3><!-- /.service-details__title -->
+                        <p class="service-details__text">There are a number of medical billing solutions that can help doctors and physicians keep track of their accounts receivable. These include outsourcing to a medical billing company, implementing electronic medical records, and regularly monitoring and following up on denied claims. By implementing these solutions, healthcare providers can improve their financial stability and receive timely payment for their services.</p><!-- /.service-details__text -->
                     </div>
                 </div><!-- /.service-details__content -->
             </div><!-- /.container -->
@@ -482,30 +374,9 @@ To reduce manual work and effort involved in checking denial errors
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
     </a>
 
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="assets/vendors/chart/chart.js"></script>
-    <!-- template js -->
-    <script src="assets/js/insuba.js"></script>
+    <?php
+    include 'includes/scripts.php';
+    ?>
 </body>
 
 </html>
