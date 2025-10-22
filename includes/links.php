@@ -1,8 +1,10 @@
 <?php include __DIR__ . '/seo.php'; ?>
 <?php 
-  $base_url = "pmbs/";
+  $base_url = "";
+  // $base_url = "pmbs/";
   // $service_base_url = "https://puremedicalbilling.com/";
-  $service_base_url = "http://localhost/pmbs/";
+  // $service_base_url = "http://localhost/pmbs/";
+  $service_base_url = "https://pmbs-production.up.railway.app/";
 ?>
 
 
