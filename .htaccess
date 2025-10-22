@@ -1,5 +1,5 @@
 RewriteEngine On
-#RewriteBase /pmbs/
+RewriteBase /
 
 # Skip existing files and folders
 RewriteCond %{REQUEST_FILENAME} !-f
