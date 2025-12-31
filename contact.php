@@ -179,7 +179,7 @@ if(isset($_GET['email']) && !empty(isset($_GET['email']))){
                                             <div class="tab active-tab fadeInUp animated" data-wow-delay="200ms" id="contact001" style="display: block;">
                                                 <div class="contact__tab-content">
                                                     <h3 class="contact__title">Get in touch with us</h3><!-- /.contact__title -->
-                                                    <form class="contact__form contact-form-validated" action="inc/sendemail.html">
+                                                    <form class="contact__form " action="mailer.php" method="get" novalidate="novalidate">
                                                         <div class="contact__form__group">
                                                             <div class="contact__form__control contact__form__control--full">
                                                                 <input type="text" name="name" placeholder="Your Name *">
