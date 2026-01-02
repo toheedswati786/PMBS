@@ -1,141 +1,18 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <title>
-      About us || Pure Medical Billing Solutions
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Home || Pure Medical Billing Solutions
     </title>
-
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/images/favicon.png"
-    />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="../css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-1?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="../css2-2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link href="../css2-3?family=Homemade+Apple&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css">
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css">
-    <link rel="stylesheet" href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css">
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css">
-    <link rel="stylesheet" href="assets/vendors/insuba-icons/style.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/insuba.css">
+    <meta name="description" content="Pure Medical Billing Solutions offers expert medical billing, coding, and credentialing services to help healthcare providers reduce denials and maximize revenue." />
+    <?php include 'assets/includes/links.php'; ?>
 </head>
 
 <body class="custom-cursor">
-
-    <div class="custom-cursor__cursor"></div>
-    <div class="custom-cursor__cursor-two"></div>
-
-    <div class="preloader" style="background-color: white !important;" >
-        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
-    </div>
-    <!-- /.preloader -->
-    <div class="page-wrapper">
-        <div class="header">
-            <div class="topbar topbar--one">
-                <div class="topbar__bg"></div><!-- /.topbar__bg -->
-                <div class="container-fluid">
-                    <div class="topbar__inner">
-                        <ul class="list-unstyled topbar__info">
-                            <li>
-                                <div class="topbar__info__icon-box topbar__info__icon--email">
-                                    <span class="topbar__info__icon">
-                                        <i class="fas fa-envelope"></i>
-                                    </span>
-                                </div>
-                                <a href="mailto:info@puremedicalbilling.com">info@puremedicalbilling.com</a>
-                            </li>
-                            <li>
-                                <div class="topbar__info__icon-box">
-                                    <span class="topbar__info__icon">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                    </span>
-                                </div>
-                                <a href="https://www.google.com/maps/place/7901+4th+St+N+%234878,+St.+Petersburg,+FL+33702/@27.844386,-82.638182,16z/data=!4m6!3m5!1s0x88c2e6a2b7850c2f:0x8dd58ca8e357d5cc!8m2!3d27.8443863!4d-82.638182!16s%2Fg%2F11s5j6nss0?hl=en&entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D" target="_blank">7901 4th ST N, STE 4878, ST.Petersburg Florida, 33702.</a>
-                            </li>
-                        </ul><!-- /.list-unstyled topbar__info -->
-                        <div class="topbar__right">
-                            <div class="topbar__social social-links">
-                                <a href="https://www.facebook.com/profile.html?id=61555900199388" target="_blank">
-                                    <span class="social-links__icon">
-                                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                        <span class="sr-only">Facebook</span>
-                                    </span><!-- /.social-links__icon -->
-                                </a>
-                                <a href="https://www.instagram.com/pure.medical.billing.solutions" target="_blank">
-                                    <span class="social-links__icon">
-                                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                                        <span class="sr-only">Instagram</span>
-                                    </span><!-- /.social-links__icon -->
-                                </a>
-                            </div>
-                        </div><!-- /.topbar__right -->
-                    </div><!-- /.topbar__inner -->
-                </div><!-- /.container-fluid -->
-            </div><!-- /.topbar -->
-
-            <header class="main-header main-header--one sticky-header sticky-header--normal">
-                <div class="container-fluid">
-                    <div class="main-header__inner">
-                        <div class="main-header__logo logo-retina">
-                            <a href="index.html">
-                                <img src="assets/images/logo-dark.png" alt="Insuba HTML" width="372">
-                            </a>
-                        </div><!-- /.main-header__logo -->
-                        <div class="main-header__right">
-                            <div class="mobile-nav__btn mobile-nav__toggler">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div><!-- /.mobile-nav__toggler -->
-                            <nav class="main-header__nav main-menu">
-                                <ul class="main-menu__list">
-                                <li>
-                                    <a href="index.html">Home</a>
-                                </li>
-
-
-                                <li>
-                                    <a href="about.html">About Us</a>
-                                </li>
-
-                                <li>
-                                    <a href="services.html">Services </a>
-                                </li>
-                                
-                                <li>
-                                    <a href="faq.html">FAQ</a>
-                                </li>
-                                <li>
-                                    <a href="contact.php">Contact</a>
-                                </li>
-                                </ul>
-                            </nav>
-                        </div><!-- /.main-header__right -->
-                    </div><!-- /.main-header__inner -->
-                </div><!-- /.container-fluid -->
-            </header><!-- /.main-header -->
-        </div><!-- /.header -->
+    <?php include 'assets/includes/header.php'; ?>
         <section class="page-header">
             <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-bg.png);"></div><!-- /.page-header__bg -->
             <div class="container">
@@ -326,9 +203,9 @@
                                 <div class="service-card-three__icon-box">
                                     <span class="service-card-three__icon"><i class="fa fa-headphones"></i></span>
                                 </div><!-- /.service-card-three__icon-box -->
-                                <h3 class="service-card-three__title"><a href="service-d-car-insurance.html">Virtual Assistance</a></h3><!-- /.service-card-three__title -->
+                                <h3 class="service-card-three__title"><a href="service-d-car-insurance">Virtual Assistance</a></h3><!-- /.service-card-three__title -->
                                 <p class="service-card-three__text">We offer virtual support for medical practices, handling calls, eligibility checks, appointment scheduling, and paperwork, so you can focus on patient care.</p><!-- /.service-card-three__text -->
-                                <a href="service-d-car-insurance.html" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
+                                <a href="service-d-car-insurance" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
                             </div><!-- /.service-card-three__content -->
                             <img src="assets/images/shapes/service-card-shape-3-1.png" alt="shape" class="service-card-three__shape">
                         </div><!-- /.service-card-three -->
@@ -342,9 +219,9 @@
                                 <div class="service-card-three__icon-box">
                                     <span class="service-card-three__icon"><i class="fa fa-file-signature"></i></span>
                                 </div><!-- /.service-card-three__icon-box -->
-                                <h3 class="service-card-three__title"><a href="service-d-life-insurance.html">Payer Credentialing</a></h3><!-- /.service-card-three__title -->
+                                <h3 class="service-card-three__title"><a href="service-d-life-insurance">Payer Credentialing</a></h3><!-- /.service-card-three__title -->
                                 <p class="service-card-three__text">We manage the entire credentialing process, ensuring your practice is properly enrolled with insurers and all documentation is accurately handled.</p><!-- /.service-card-three__text -->
-                                <a href="service-d-life-insurance.html" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
+                                <a href="service-d-life-insurance" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
                             </div><!-- /.service-card-three__content -->
                             <img src="assets/images/shapes/service-card-shape-3-1.png" alt="shape" class="service-card-three__shape">
                         </div><!-- /.service-card-three -->
@@ -358,9 +235,9 @@
                                 <div class="service-card-three__icon-box">
                                     <span class="service-card-three__icon"><i class="fa fa-file-invoice-dollar"></i></span>
                                 </div><!-- /.service-card-three__icon-box -->
-                                <h3 class="service-card-three__title"><a href="service-d-business-insurance.html">Medical Billing & Coding</a></h3><!-- /.service-card-three__title -->
+                                <h3 class="service-card-three__title"><a href="service-d-business-insurance">Medical Billing & Coding</a></h3><!-- /.service-card-three__title -->
                                 <p class="service-card-three__text">Our billing services reduce errors and boost revenue through expert coding and efficient use of advanced billing software.</p><!-- /.service-card-three__text -->
-                                <a href="service-d-business-insurance.html" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
+                                <a href="service-d-business-insurance" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
                             </div><!-- /.service-card-three__content -->
                             <img src="assets/images/shapes/service-card-shape-3-1.png" alt="shape" class="service-card-three__shape">
                         </div><!-- /.service-card-three -->
@@ -374,9 +251,9 @@
                                 <div class="service-card-three__icon-box">
                                     <span class="service-card-three__icon"><i class="fa fa-sync-alt"></i></span>
                                 </div><!-- /.service-card-three__icon-box -->
-                                <h3 class="service-card-three__title"><a href="service-d-healthy-insurance.html">Revenue Cycle Management (RCM)</a></h3><!-- /.service-card-three__title -->
+                                <h3 class="service-card-three__title"><a href="service-d-healthy-insurance">Revenue Cycle Management (RCM)</a></h3><!-- /.service-card-three__title -->
                                 <p class="service-card-three__text">We streamline the entire financial cycle, from patient registration to final payment, helping you maintain smooth and profitable operations.</p><!-- /.service-card-three__text -->
-                                <a href="service-d-healthy-insurance.html" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
+                                <a href="service-d-healthy-insurance" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
                             </div><!-- /.service-card-three__content -->
                             <img src="assets/images/shapes/service-card-shape-3-1.png" alt="shape" class="service-card-three__shape">
                         </div><!-- /.service-card-three -->
@@ -390,9 +267,9 @@
                                 <div class="service-card-three__icon-box">
                                     <span class="service-card-three__icon"><i class="fa fa-laptop-code"></i></span>
                                 </div><!-- /.service-card-three__icon-box -->
-                                <h3 class="service-card-three__title"><a href="service-d-home-insurance.html">Web Design & Development</a></h3><!-- /.service-card-three__title -->
+                                <h3 class="service-card-three__title"><a href="service-d-home-insurance">Web Design & Development</a></h3><!-- /.service-card-three__title -->
                                 <p class="service-card-three__text">We design modern, responsive websites that reflect your brand and improve your online presence in the healthcare industry.</p><!-- /.service-card-three__text -->
-                                <a href="service-d-home-insurance.html" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
+                                <a href="service-d-home-insurance" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
                             </div><!-- /.service-card-three__content -->
                             <img src="assets/images/shapes/service-card-shape-3-1.png" alt="shape" class="service-card-three__shape">
                         </div><!-- /.service-card-three -->
@@ -406,9 +283,9 @@
                                 <div class="service-card-three__icon-box">
                                     <span class="service-card-three__icon"><i class="fa fa-file-medical"></i></span>
                                 </div><!-- /.service-card-three__icon-box -->
-                                <h3 class="service-card-three__title"><a href="service-d-finance-insurance.html">Eligibility Verification</a></h3><!-- /.service-card-three__title -->
+                                <h3 class="service-card-three__title"><a href="service-d-finance-insurance">Eligibility Verification</a></h3><!-- /.service-card-three__title -->
                                 <p class="service-card-three__text">We verify patient insurance coverage to help prevent claim denials and ensure accurate, efficient billing and treatment planning.</p><!-- /.service-card-three__text -->
-                                <a href="service-d-finance-insurance.html" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
+                                <a href="service-d-finance-insurance" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
                             </div><!-- /.service-card-three__content -->
                             <img src="assets/images/shapes/service-card-shape-3-1.png" alt="shape" class="service-card-three__shape">
                         </div><!-- /.service-card-three -->
@@ -422,9 +299,9 @@
                                 <div class="service-card-three__icon-box">
                                     <span class="service-card-three__icon"><i class="fa fa-hand-holding-usd"></i></span>
                                 </div><!-- /.service-card-three__icon-box -->
-                                <h3 class="service-card-three__title"><a href="service-d-car-insurance.html">Account Receivable</a></h3><!-- /.service-card-three__title -->
+                                <h3 class="service-card-three__title"><a href="service-d-car-insurance">Account Receivable</a></h3><!-- /.service-card-three__title -->
                                 <p class="service-card-three__text">We improve collections and reduce aging AR by managing unpaid claims and optimizing your revenue cycle.</p><!-- /.service-card-three__text -->
-                                <a href="service-d-car-insurance.html" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
+                                <a href="service-d-car-insurance" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
                             </div><!-- /.service-card-three__content -->
                             <img src="assets/images/shapes/service-card-shape-3-1.png" alt="shape" class="service-card-three__shape">
                         </div><!-- /.service-card-three -->
@@ -438,9 +315,9 @@
                                 <div class="service-card-three__icon-box">
                                     <span class="service-card-three__icon"><i class="fa fa-ban"></i></span>
                                 </div><!-- /.service-card-three__icon-box -->
-                                <h3 class="service-card-three__title"><a href="service-d-business-insurance.html">Denial Management</a></h3><!-- /.service-card-three__title -->
+                                <h3 class="service-card-three__title"><a href="service-d-business-insurance">Denial Management</a></h3><!-- /.service-card-three__title -->
                                 <p class="service-card-three__text">We analyze and resolve claim denials quickly to recover lost revenue and prevent future billing issues.</p><!-- /.service-card-three__text -->
-                                <a href="service-d-business-insurance.html" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
+                                <a href="service-d-business-insurance" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
                             </div><!-- /.service-card-three__content -->
                             <img src="assets/images/shapes/service-card-shape-3-1.png" alt="shape" class="service-card-three__shape">
                         </div><!-- /.service-card-three -->
@@ -454,9 +331,9 @@
                                 <div class="service-card-three__icon-box">
                                     <span class="service-card-three__icon"><i class="fa fa-clipboard-check"></i></span>
                                 </div><!-- /.service-card-three__icon-box -->
-                                <h3 class="service-card-three__title"><a href="service-d-healthy-insurance.html">Prior Authorization</a></h3><!-- /.service-card-three__title -->
+                                <h3 class="service-card-three__title"><a href="service-d-healthy-insurance">Prior Authorization</a></h3><!-- /.service-card-three__title -->
                                 <p class="service-card-three__text">We handle prior authorizations promptly to ensure treatments are approved and covered, avoiding unexpected patient costs.</p><!-- /.service-card-three__text -->
-                                <a href="service-d-healthy-insurance.html" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
+                                <a href="service-d-healthy-insurance" class="service-card-three__link">Read More <i class="icon-plus"></i></a><!-- /.service-card-three__link -->
                             </div><!-- /.service-card-three__content -->
                             <img src="assets/images/shapes/service-card-shape-3-1.png" alt="shape" class="service-card-three__shape">
                         </div><!-- /.service-card-three -->
@@ -546,7 +423,7 @@ Reduces delays in patient care
                                             </li>
                                         </ul><!-- /.why-choose-one__list list-unstyled -->
                                         <div class="why-choose-one__button">
-                                            <a href="about.html" class="insuba-btn">
+                                            <a href="about" class="insuba-btn">
                                                 <span>Read More</span>
                                                 <span class="insuba-btn__icon-box">
                                                     <span class="insuba-btn__icon"><i class="fas fa-arrow-right"></i></span>
@@ -583,7 +460,7 @@ Reduces delays in patient care
                                             </li>
                                         </ul><!-- /.why-choose-one__list list-unstyled -->
                                         <div class="why-choose-one__button">
-                                            <a href="about.html" class="insuba-btn">
+                                            <a href="about" class="insuba-btn">
                                                 <span>Read More</span>
                                                 <span class="insuba-btn__icon-box">
                                                     <span class="insuba-btn__icon"><i class="fas fa-arrow-right"></i></span>
@@ -620,7 +497,7 @@ Reduces delays in patient care
                                             </li>
                                         </ul><!-- /.why-choose-one__list list-unstyled -->
                                         <div class="why-choose-one__button">
-                                            <a href="about.html" class="insuba-btn">
+                                            <a href="about" class="insuba-btn">
                                                 <span>Read More</span>
                                                 <span class="insuba-btn__icon-box">
                                                     <span class="insuba-btn__icon"><i class="fas fa-arrow-right"></i></span>
@@ -657,7 +534,7 @@ Reduces delays in patient care
                                             </li>
                                         </ul><!-- /.why-choose-one__list list-unstyled -->
                                         <div class="why-choose-one__button">
-                                            <a href="about.html" class="insuba-btn">
+                                            <a href="about" class="insuba-btn">
                                                 <span>Read More</span>
                                                 <span class="insuba-btn__icon-box">
                                                     <span class="insuba-btn__icon"><i class="fas fa-arrow-right"></i></span>
@@ -694,7 +571,7 @@ Reduces delays in patient care
                                             </li>
                                         </ul><!-- /.why-choose-one__list list-unstyled -->
                                         <div class="why-choose-one__button">
-                                            <a href="about.html" class="insuba-btn">
+                                            <a href="about" class="insuba-btn">
                                                 <span>Read More</span>
                                                 <span class="insuba-btn__icon-box">
                                                     <span class="insuba-btn__icon"><i class="fas fa-arrow-right"></i></span>
@@ -747,199 +624,8 @@ Reduces delays in patient care
         window.location.href = 'contact.php?email=' + encodeURIComponent(value);
     }
 </script>
-        <footer class="main-footer @@extraClassName">
-            <div class="main-footer__top">
-                <div class="main-footer__bg" style="background-image: url(assets/images/backgrounds/footer-bg.jpg);"></div><!-- /.main-footer__bg -->
-                          <div class="container">
-            <div class="row gutter-y-40">
-              <div
-                class="col-xl-8 col-lg-6 col-md-8 wow fadeInUp"
-                data-wow-duration="1500ms"
-                data-wow-delay="00ms"
-              >
-                <div class="footer-widget footer-widget--about">
-                  <a href="index.html" class="footer-widget__logo">
-                    <img
-                      src="assets/images/logo-dark.png"
-                      width="292"
-                      alt="Insuba HTML Template" style="background-color: white; padding:10px;border-radius: 29px;" 
-                    /> </a
-                  ><!-- /.footer-widget__logo -->
-                  <p class="footer-widget__about">
-                    We provide billing and RCM services tailored for therapists and psychiatrists while ensuring you stay connected with our company’s newest updates.
-                  </p>
-                  <!-- /.footer-widget__about -->
-                  <div class="social-links">
-                    <a href="https://www.facebook.com/profile.html?id=61555900199388" target="_blank">
-                      <span class="social-links__icon">
-                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span> </span
-                      ><!-- /.social-links__icon -->
-                    </a>
-                    <a href="https://www.instagram.com/pure.medical.billing.solutions" target="_blank">
-                      <span class="social-links__icon">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span> </span
-                      ><!-- /.social-links__icon -->
-                    </a>
-                  </div>
-                  <!-- /.social-links -->
-                </div>
-                <!-- /.footer-widget -->
-              </div>
+    <?php include 'assets/includes/footer.php'; ?>
+    <?php include 'assets/includes/scripts.php'; ?>
+    </body>
 
-              <div
-                class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-duration="1500ms"
-                data-wow-delay="300ms"
-              >
-                <div class="footer-widget footer-widget--info">
-                  <h2 class="footer-widget__title">About Us</h2>
-                  <!-- /.footer-widget__title -->
-                  <ul class="list-unstyled footer-widget__info">
-                    <li>
-                      <span class="footer-widget__info__icon"
-                        ><i class="far fa-clock"></i
-                      ></span>
-                      <div class="footer-widget__info__text">
-                        <span>Office Hours:</span> <br />
-                        <span>Mon - Fri: 09.00 AM. - 06.00 PM (EST).</span>
-                      </div>
-                      <!-- /.footer-widget__info__text -->
-                    </li>
-                    <li>
-                      <span class="footer-widget__info__icon"
-                        ><i class="fas fa-map-marker-alt"></i
-                      ></span>
-                      <a href="#" class="footer-widget__info__text">
-                        7901 4th ST N, STE 4878, <br> ST.Petersburg Florida, 33702</a
-                      >
-                    </li>
-                    <li>
-                      <span class="footer-widget__info__icon"
-                        ><i class="fas fa-phone-alt"></i
-                      ></span>
-                      <div class="footer-widget__info__text">
-                        <a href="tel:+17079486213">+1(707)–948–6213</a>
-                      </div>
-                      <!-- /.footer-widget__info__text -->
-                    </li>
-                  </ul>
-                  <!-- /.list-unstyled -->
-                </div>
-                <!-- /.footer-widget -->
-              </div>
-            </div>
-            <!-- /.row -->
-          </div><!-- /.container -->
-                <img src="assets/images/shapes/footer-shape-1-1.png" alt="shape" class="main-footer__shape-one">
-                <img src="assets/images/shapes/footer-shape-1-2.png" alt="shape" class="main-footer__shape-two">
-            </div><!-- /.main-footer__top -->
-            <div class="main-footer__bottom">
-                <div class="container">
-                    <div class="main-footer__bottom__inner">
-                        <p class="main-footer__copyright">
-                            &copy; Copyright <span class="dynamic-year"></span> by Pure Medical Billing Solutions.
-                        </p>
-                    </div><!-- /.main-footer__inner -->
-                </div><!-- /.container -->
-            </div><!-- /.main-footer__bottom -->
-        </footer>
-
-    </div><!-- /.page-wrapper -->
-
-    <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div><!-- /.mobile-nav__overlay -->
-        <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="icon-close"></i></span>
-            <div class="logo-box logo-retina">
-                <a href="index.html" aria-label="logo image">
-                    <img src="assets/images/logo-light.png" width="212" alt="">
-                </a>
-            </div><!-- /.logo-box -->
-            <div class="mobile-nav__container"></div><!-- /.mobile-nav__container -->
-            <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <span class="mobile-nav__contact__icon"><i class="fa fa-envelope"></i></span>
-                    <a href="mailto:needhelp@insuba.com">info@puremedicalbilling.com</a>
-                </li>
-                <li>
-                    <span class="mobile-nav__contact__icon"><i class="fa fa-phone-alt"></i></span>
-                    <a href="tel:+9156980036420">+91 5698 0036 420</a>
-                </li>
-            </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__social social-links">
-                <a href="https://www.facebook.com/profile.html?id=61555900199388" target="_blank">
-                    <span class="social-links__icon">
-                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </span><!-- /.social-links__icon -->
-                </a>
-                <a href="https://pinterest.com">
-                    <span class="social-links__icon">
-                        <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                        <span class="sr-only">Pinterest</span>
-                    </span><!-- /.social-links__icon -->
-                </a>
-                <a href="https://twitter.com">
-                    <span class="social-links__icon">
-                        <i class="fab fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </span><!-- /.social-links__icon -->
-                </a>
-                <a href="https://www.instagram.com/pure.medical.billing.solutions" target="_blank">
-                    <span class="social-links__icon">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </span><!-- /.social-links__icon -->
-                </a>
-            </div><!-- /.mobile-nav__social -->
-        </div><!-- /.mobile-nav__content -->
-    </div><!-- /.mobile-nav__wrapper -->
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form role="search" method="get" class="search-popup__form" action="#">
-                <input type="text" id="search" placeholder="Search Here...">
-                <button type="submit" aria-label="search submit" class="insuba-btn insuba-btn--base">
-                    <i class="icon-search"></i>
-                </button>
-            </form>
-        </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
-
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
-        <span class="scroll-to-top__text">back top</span>
-        <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
-    </a>
-
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="assets/vendors/chart/chart.js"></script>
-    <!-- template js -->
-    <script src="assets/js/insuba.js"></script>
-</body>
-
-</html>
+    </html>

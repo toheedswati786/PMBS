@@ -1,202 +1,18 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Home || Pure Medical Billing Solutions
+        Home || Pure Medical Billing Solutions
     </title>
+    <meta name="description" content="Pure Medical Billing Solutions offers expert medical billing, coding, and credentialing services to help healthcare providers reduce denials and maximize revenue." />
+    <?php include 'assets/includes/links.php'; ?>
+</head>
 
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/images/favicon.png"
-    />
-
-
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-    <link
-      href="../css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="../css2-1?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="../css2-2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="../css2-3?family=Homemade+Apple&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      rel="stylesheet"
-      href="assets/vendors/bootstrap/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/bootstrap-select/bootstrap-select.min.css"
-    />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/nouislider/nouislider.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/nouislider/nouislider.pips.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css"
-    />
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/vendors/insuba-icons/style.css" />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/owl-carousel/css/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/vendors/owl-carousel/css/owl.theme.default.min.css"
-    />
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/insuba.css" />
-  </head>
-
-  <body class="custom-cursor">
-    <div class="custom-cursor__cursor"></div>
-    <div class="custom-cursor__cursor-two"></div>
-
-    <div class="preloader" style="background-color: white !important;">
-      <div
-        class="preloader__image"
-        style="background-image: url(assets/images/loader.png)"
-      ></div>
-    </div>
-    <!-- /.preloader -->
-    <div class="page-wrapper">
-      <div class="topbar topbar--one">
-          <div class="topbar__bg"></div><!-- /.topbar__bg -->
-          <div class="container-fluid">
-              <div class="topbar__inner">
-                  <ul class="list-unstyled topbar__info">
-                      <li>
-                          <div class="topbar__info__icon-box topbar__info__icon--email">
-                              <span class="topbar__info__icon">
-                                  <i class="fas fa-envelope"></i>
-                              </span>
-                          </div>
-                          <a href="mailto:info@puremedicalbilling.com">info@puremedicalbilling.com</a>
-                      </li>
-                      <li>
-                          <div class="topbar__info__icon-box">
-                              <span class="topbar__info__icon">
-                                  <i class="fas fa-map-marker-alt"></i>
-                              </span>
-                          </div>
-                          <a href="https://www.google.com/maps/place/7901+4th+St+N+%234878,+St.+Petersburg,+FL+33702/@27.844386,-82.638182,16z/data=!4m6!3m5!1s0x88c2e6a2b7850c2f:0x8dd58ca8e357d5cc!8m2!3d27.8443863!4d-82.638182!16s%2Fg%2F11s5j6nss0?hl=en&entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D" target="_blank">7901 4th ST N, STE 4878, ST.Petersburg Florida, 33702.</a>
-                      </li>
-                  </ul><!-- /.list-unstyled topbar__info -->
-                  <div class="topbar__right">
-                      <div class="topbar__social social-links">
-                          <a href="https://www.facebook.com/profile.html?id=61555900199388" target="_blank">
-                              <span class="social-links__icon">
-                                  <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                  <span class="sr-only">Facebook</span>
-                              </span><!-- /.social-links__icon -->
-                          </a>
-                          <a href="https://www.instagram.com/pure.medical.billing.solutions" target="_blank">
-                              <span class="social-links__icon">
-                                  <i class="fab fa-instagram" aria-hidden="true"></i>
-                                  <span class="sr-only">Instagram</span>
-                              </span><!-- /.social-links__icon -->
-                          </a>
-                      </div>
-                  </div><!-- /.topbar__right -->
-              </div><!-- /.topbar__inner -->
-          </div><!-- /.container-fluid -->
-      </div><!-- /.topbar -->
-      
-
-      <header
-        class="main-header main-header--two sticky-header sticky-header--normal"
-      >
-        <img
-          src="assets/images/shapes/header-shape-2-1.png"
-          alt="shape"
-          class="main-header__shape"
-        />
-        <div class="container">
-          <div class="main-header__inner">
-            <div class="main-header__logo logo-retina">
-              <a href="index.html">
-                <img
-                  src="assets/images/logo-dark.png"
-                  alt="Insuba HTML" style="padding-top:20px; margin-bottom: -20px;"
-                  width="372"
-                />
-              </a>
-            </div>
-            <!-- /.main-header__logo -->
-            <div class="main-header__right">
-              <div class="mobile-nav__btn mobile-nav__toggler">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <!-- /.mobile-nav__toggler -->
-              <nav class="main-header__nav main-menu">
-                <ul class="main-menu__list">
-                  <li>
-                    <a href="index.html">Home</a>
-                  </li>
-
-                  <li>
-                    <a href="about.html">About Us</a>
-                  </li>
-
-                  <li>
-                    <a href="services.html">Services </a>
-                  </li>
-
-                  <li>
-                    <a href="faq.html">FAQ</a>
-                  </li>
-                  <li>
-                    <a href="contact.php">Contact</a>
-                  </li>
-                </ul>
-              </nav>
-                <!-- <a href="contact.php" class="insuba-btn insuba-btn--base main-header__btn">
-                    <span>Get a Quote</span>
-                    <span class="insuba-btn__icon-box">
-                        <span class="insuba-btn__icon"><i class="fas fa-arrow-right"></i></span>
-                    </span>
-                </a> -->
-            </div>
-            <!-- /.main-header__right -->
-          </div>
-          <!-- /.main-header__inner -->
-        </div>
-        <!-- /.container -->
-      </header>
-      <!-- /.main-header -->
-
+<body class="custom-cursor">
+    <?php include 'assets/includes/header.php'; ?>
       <section class="main-slider-two" id="home">
         <div
           class="main-slider-two__carousel insuba-owl__carousel insuba-owl__carousel--basic-nav owl-carousel owl-theme"
@@ -281,7 +97,7 @@
                     <div class="main-slider-two__button">
                       <div class="main-slider-two__button__inner">
                         <a
-                          href="mbc-service.html"
+                          href="services/mbc-service"
                           class="main-slider-two__btn insuba-btn"
                         >
                           <span>Learn More</span>
@@ -383,7 +199,7 @@
                     <div class="main-slider-two__button">
                       <div class="main-slider-two__button__inner">
                         <a
-                          href="va-service.html"
+                          href="services/va-service"
                           class="main-slider-two__btn insuba-btn"
                         >
                           <span>Learn More</span>
@@ -477,7 +293,7 @@
                     <!-- /.main-slider-two__title -->
                     <div class="main-slider-two__description">
                       <p class="main-slider-two__text">
-                        Get enrolled with payers quickly and without delays—grow your patient base and revenue with less hassle.
+                        Get enrolled with payers quickly and without delaysâ€”grow your patient base and revenue with less hassle.
                       </p>
                       <!-- /.text -->
                     </div>
@@ -485,7 +301,7 @@
                     <div class="main-slider-two__button">
                       <div class="main-slider-two__button__inner">
                         <a
-                          href="pc-service.html"
+                          href="services/pc-service"
                           class="main-slider-two__btn insuba-btn"
                         >
                           <span>Learn More</span>
@@ -538,12 +354,12 @@
                     <i class="icon-life-insurance"></i> </span
                   ><!-- /.features-one__card__icon -->
                   <h3 class="features-one__card__title">
-                    <a href="insurance.html">Accuracy</a>
+                    <a href="insurance">Accuracy</a>
                   </h3>
                   <!-- /.features-one__card__title -->
                   <p class="features-one__card__text">98% Claim Success</p>
                   <!-- /.features-one__card__text -->
-                  <a href="insurance.html" class="features-one__card__btn">
+                  <a href="insurance" class="features-one__card__btn">
                     <span class="features-one__card__btn__icon">
                       <i class="icon-back-2"></i>
                     </span> </a
@@ -565,12 +381,12 @@
                     <i class="icon-protection"></i> </span
                   ><!-- /.features-one__card__icon -->
                   <h3 class="features-one__card__title">
-                    <a href="insurance.html">Compliance</a>
+                    <a href="insurance">Compliance</a>
                   </h3>
                   <!-- /.features-one__card__title -->
                   <p class="features-one__card__text">100% HIPAA compliant</p>
                   <!-- /.features-one__card__text -->
-                  <a href="insurance.html" class="features-one__card__btn">
+                  <a href="insurance" class="features-one__card__btn">
                     <span class="features-one__card__btn__icon">
                       <i class="icon-back-2"></i>
                     </span> </a
@@ -592,12 +408,12 @@
                     <i class="icon-insurance-2"></i> </span
                   ><!-- /.features-one__card__icon -->
                   <h3 class="features-one__card__title">
-                    <a href="insurance.html">Savings</a>
+                    <a href="insurance">Savings</a>
                   </h3>
                   <!-- /.features-one__card__title -->
                   <p class="features-one__card__text">Save upto 70% Cost</p>
                   <!-- /.features-one__card__text -->
-                  <a href="insurance.html" class="features-one__card__btn">
+                  <a href="insurance" class="features-one__card__btn">
                     <span class="features-one__card__btn__icon">
                       <i class="icon-back-2"></i>
                     </span> </a
@@ -629,6 +445,7 @@
                       src="assets/images/about/about-2-1.jpg"
                       alt="about"
                       class="about-two__image__one"
+                      loading="lazy"
                     />
                   </div>
                   <!-- /.about-two__image__one -->
@@ -636,20 +453,23 @@
                     src="assets/images/shapes/about-shape-2-1.png"
                     alt="shape"
                     class="about-two__image__shape-one"
+                    loading="lazy"
                   />
                   <img
                     src="assets/images/shapes/about-shape-2-2.png"
                     alt="shape"
                     class="about-two__image__shape-two"
+                    loading="lazy"
                   />
                   <img
                     src="assets/images/shapes/about-shape-2-2.png"
                     alt="shape"
                     class="about-two__image__shape-three"
+                    loading="lazy"
                   />
                   <div class="about-two__video-button">
                     <a
-                      href="about.html"
+                      href="about"
                       class="video-btn "
                     >
                       <i class="icon-play"></i>
@@ -685,7 +505,7 @@
                   data-wow-duration="1500ms"
                 >
                   <p class="about-two__text">
-                    At Pure Medical Billing Solutions, we simplify the complex world of medical billing, coding, and credentialing. Our mission is to help healthcare providers reduce claim denials, streamline reimbursements, and stay compliant with every regulation. By combining technology with expert support, we give practices the freedom to focus on what matters most—delivering quality patient care.
+                    At Pure Medical Billing Solutions, we simplify the complex world of medical billing, coding, and credentialing. Our mission is to help healthcare providers reduce claim denials, streamline reimbursements, and stay compliant with every regulation. By combining technology with expert support, we give practices the freedom to focus on what matters mostâ€”delivering quality patient care.
                   </p>
                   <!-- /.about-two__text -->
                 </div>
@@ -736,6 +556,7 @@
           src="assets/images/shapes/home-insurance-shape-1-1.png"
           alt="shape"
           class="home-insurance__shape"
+          loading="lazy"
         />
         <div class="container">
           <div class="home-insurance__inner">
@@ -753,11 +574,11 @@
                       <h3 class="home-insurance__title">Why PMBS</h3>
                       <!-- /.home-insurance__title -->
                       <p class="home-insurance__text">
-                        We provide full revenue cycle support, credentialing, and virtual assistance—streamlining operations and boosting claim success so providers can focus on patient care.
+                        We provide full revenue cycle support, credentialing, and virtual assistanceâ€”streamlining operations and boosting claim success so providers can focus on patient care.
                       </p>
                       <!-- /.home-insurance__text -->
                       <a
-                        href="contact.php"
+                        href="contact"
                         class="insuba-btn insuba-btn--base"
                       >
                         <span>Get a Quote</span>
@@ -881,7 +702,7 @@
                   </div>
                   <!-- /.service-card-two__icon-box -->
                   <h3 class="service-card-two__title">
-                    <a href="mbc-service.html">Medical Billing & Coding</a>
+                    <a href="services/mbc-service">Medical Billing & Coding</a>
                   </h3>
                   <!-- /.service-card-two__title -->
                   <p class="service-card-two__text">Accurate claims, faster payments</p>
@@ -889,7 +710,7 @@
                 </div>
                 <!-- /.service-card-two__content -->
                 <a
-                  href="mbc-service.html"
+                  href="services/mbc-service"
                   class="service-card-two__btn"
                 >
                   <span class="service-card-two__btn__icon"
@@ -900,6 +721,7 @@
                   src="assets/images/shapes/service-card-shape-2-1.png"
                   alt="shape"
                   class="service-card-two__shape"
+                  loading="lazy"
                 />
               </div>
               <!-- /.service-card-two -->
@@ -926,7 +748,7 @@
                   </div>
                   <!-- /.service-card-two__icon-box -->
                   <h3 class="service-card-two__title">
-                    <a href="va-service.html">Virtual Assistance</a>
+                    <a href="services/va-service">Virtual Assistance</a>
                   </h3>
                   <!-- /.service-card-two__title -->
                   <p class="service-card-two__text">Streamline tasks with expert support.</p>
@@ -934,7 +756,7 @@
                 </div>
                 <!-- /.service-card-two__content -->
                 <a
-                  href="va-service.html"
+                  href="services/va-service"
                   class="service-card-two__btn"
                 >
                   <span class="service-card-two__btn__icon"
@@ -945,6 +767,7 @@
                   src="assets/images/shapes/service-card-shape-2-1.png"
                   alt="shape"
                   class="service-card-two__shape"
+                  loading="lazy"
                 />
               </div>
               <!-- /.service-card-two -->
@@ -971,7 +794,7 @@
                   </div>
                   <!-- /.service-card-two__icon-box -->
                   <h3 class="service-card-two__title">
-                    <a href="pc-service.html"
+                    <a href="services/pc-service"
                       >Provider Credentialing</a
                     >
                   </h3>
@@ -981,7 +804,7 @@
                 </div>
                 <!-- /.service-card-two__content -->
                 <a
-                  href="pc-service.html"
+                  href="services/pc-service"
                   class="service-card-two__btn"
                 >
                   <span class="service-card-two__btn__icon"
@@ -992,6 +815,7 @@
                   src="assets/images/shapes/service-card-shape-2-1.png"
                   alt="shape"
                   class="service-card-two__shape"
+                  loading="lazy"
                 />
               </div>
               <!-- /.service-card-two -->
@@ -1018,7 +842,7 @@
                   </div>
                   <!-- /.service-card-two__icon-box -->
                   <h3 class="service-card-two__title">
-                    <a href="rcm-service.html"
+                    <a href="services/rcm-service"
                       >Revenue Cycle Management (RCM)</a
                     >
                   </h3>
@@ -1028,7 +852,7 @@
                 </div>
                 <!-- /.service-card-two__content -->
                 <a
-                  href="rcm-service.html"
+                  href="services/rcm-service"
                   class="service-card-two__btn"
                 >
                   <span class="service-card-two__btn__icon"
@@ -1039,6 +863,7 @@
                   src="assets/images/shapes/service-card-shape-2-1.png"
                   alt="shape"
                   class="service-card-two__shape"
+                  loading="lazy"
                 />
               </div>
               <!-- /.service-card-two -->
@@ -1065,7 +890,7 @@
                   </div>
                   <!-- /.service-card-two__icon-box -->
                   <h3 class="service-card-two__title">
-                    <a href="dm-service.html">Denial Management</a>
+                    <a href="services/dm-service">Denial Management</a>
                   </h3>
                   <!-- /.service-card-two__title -->
                   <p class="service-card-two__text">Reduce rejections, recover revenue.</p>
@@ -1073,7 +898,7 @@
                 </div>
                 <!-- /.service-card-two__content -->
                 <a
-                  href="dm-service.html"
+                  href="services/dm-service"
                   class="service-card-two__btn"
                 >
                   <span class="service-card-two__btn__icon"
@@ -1084,6 +909,7 @@
                   src="assets/images/shapes/service-card-shape-2-1.png"
                   alt="shape"
                   class="service-card-two__shape"
+                  loading="lazy"
                 />
               </div>
               <!-- /.service-card-two -->
@@ -1110,7 +936,7 @@
                   </div>
                   <!-- /.service-card-two__icon-box -->
                   <h3 class="service-card-two__title">
-                    <a href="mbc-service.html"
+                    <a href="services/mbc-service"
                       >Patient Billing Support</a
                     >
                   </h3>
@@ -1120,7 +946,7 @@
                 </div>
                 <!-- /.service-card-two__content -->
                 <a
-                  href="mbc-service.html"
+                  href="services/mbc-service"
                   class="service-card-two__btn"
                 >
                   <span class="service-card-two__btn__icon"
@@ -1131,6 +957,7 @@
                   src="assets/images/shapes/service-card-shape-2-1.png"
                   alt="shape"
                   class="service-card-two__shape"
+                  loading="lazy"
                 />
               </div>
               <!-- /.service-card-two -->
@@ -1247,7 +1074,7 @@
                       </ul>
                       <!-- /.why-choose-one__list list-unstyled -->
                       <div class="why-choose-one__button">
-                        <a href="ev-service.html" class="insuba-btn">
+                        <a href="services/ev-service" class="insuba-btn">
                           <span>Read More</span>
                           <span class="insuba-btn__icon-box">
                             <span class="insuba-btn__icon"
@@ -1266,6 +1093,7 @@
                       <img
                         src="assets/images/why-choose/imgg-1.jpg"
                         alt="choose image"
+                        loading="lazy"
                       />
                       <span class="why-choose-one__image__star-text">*</span
                       ><!-- /.why-choose-one__image__star-text -->
@@ -1315,7 +1143,7 @@
                       </ul>
                       <!-- /.why-choose-one__list list-unstyled -->
                       <div class="why-choose-one__button">
-                        <a href="pr-service.html" class="insuba-btn">
+                        <a href="services/pr-service" class="insuba-btn">
                           <span>Read More</span>
                           <span class="insuba-btn__icon-box">
                             <span class="insuba-btn__icon"
@@ -1334,6 +1162,7 @@
                       <img
                         src="assets/images/why-choose/imgg-2.jpg"
                         alt="choose image"
+                        loading="lazy"
                       />
                       <span class="why-choose-one__image__star-text">*</span
                       ><!-- /.why-choose-one__image__star-text -->
@@ -1383,7 +1212,7 @@
                       </ul>
                       <!-- /.why-choose-one__list list-unstyled -->
                       <div class="why-choose-one__button">
-                        <a href="mbc-service.html" class="insuba-btn">
+                        <a href="services/mbc-service" class="insuba-btn">
                           <span>Read More</span>
                           <span class="insuba-btn__icon-box">
                             <span class="insuba-btn__icon"
@@ -1402,6 +1231,7 @@
                       <img
                         src="assets/images/why-choose/imgg-3.jpg"
                         alt="choose image"
+                        loading="lazy"
                       />
                       <span class="why-choose-one__image__star-text">*</span
                       ><!-- /.why-choose-one__image__star-text -->
@@ -1451,7 +1281,7 @@
                       </ul>
                       <!-- /.why-choose-one__list list-unstyled -->
                       <div class="why-choose-one__button">
-                        <a href="mbc-service.html" class="insuba-btn">
+                        <a href="services/mbc-service" class="insuba-btn">
                           <span>Read More</span>
                           <span class="insuba-btn__icon-box">
                             <span class="insuba-btn__icon"
@@ -1470,6 +1300,7 @@
                       <img
                         src="assets/images/why-choose/imgg-4.jpg"
                         alt="choose image"
+                        loading="lazy"
                       />
                       <span class="why-choose-one__image__star-text">*</span
                       ><!-- /.why-choose-one__image__star-text -->
@@ -1519,7 +1350,7 @@
                       </ul>
                       <!-- /.why-choose-one__list list-unstyled -->
                       <div class="why-choose-one__button">
-                        <a href="ar-service.html" class="insuba-btn">
+                        <a href="services/ar-service" class="insuba-btn">
                           <span>Read More</span>
                           <span class="insuba-btn__icon-box">
                             <span class="insuba-btn__icon"
@@ -1538,6 +1369,7 @@
                       <img
                         src="assets/images/why-choose/imgg-5.jpg"
                         alt="choose image"
+                        loading="lazy"
                       />
                       <span class="why-choose-one__image__star-text">*</span
                       ><!-- /.why-choose-one__image__star-text -->
@@ -1598,6 +1430,7 @@
                         src="assets/images/shapes/funfact-shape-2.png"
                         alt="shape"
                         class="funfact__item__shape"
+                        loading="lazy"
                       />
                     </div>
                     <!-- /.funfact__item -->
@@ -1759,6 +1592,7 @@
                 src="assets/images/ehr/1.webp"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1768,6 +1602,7 @@
                 src="assets/images/ehr/2.webp"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1777,6 +1612,7 @@
                 src="assets/images/ehr/3.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1786,6 +1622,7 @@
                 src="assets/images/ehr/4.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1795,6 +1632,7 @@
                 src="assets/images/ehr/5.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1804,6 +1642,7 @@
                 src="assets/images/ehr/6.webp"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1813,6 +1652,7 @@
                 src="assets/images/ehr/7.webp"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1822,6 +1662,7 @@
                 src="assets/images/ehr/8.webp"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1831,6 +1672,7 @@
                 src="assets/images/ehr/9.webp"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1840,6 +1682,7 @@
                 src="assets/images/ehr/10.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1849,6 +1692,7 @@
                 src="assets/images/ehr/11.webp"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1858,6 +1702,7 @@
                 src="assets/images/ehr/12.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1867,6 +1712,7 @@
                 src="assets/images/ehr/13.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1876,6 +1722,7 @@
                 src="assets/images/ehr/14.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1885,6 +1732,7 @@
                 src="assets/images/ehr/15.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1894,6 +1742,7 @@
                 src="assets/images/ehr/16.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1903,6 +1752,7 @@
                 src="assets/images/ehr/17.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1912,6 +1762,7 @@
                 src="assets/images/ehr/18.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1921,6 +1772,7 @@
                 src="assets/images/ehr/19.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1930,6 +1782,7 @@
                 src="assets/images/ehr/20.png"
                 alt="insuba"
                 class="client-carousel__image"
+                loading="lazy"
               />
               <!-- /.client-carousel__hover -->
             </div>
@@ -1959,7 +1812,7 @@
                 >
                   <!-- /.sec-title__top -->
                   <h3 class="sec-title__title">
-                    How We Work — Simple, Transparent, Effective
+                    How We Work â€” Simple, Transparent, Effective
                   </h3>
                   <!-- /.sec-title__title -->
                 </div>
@@ -1969,12 +1822,12 @@
                   data-wow-duration="1500ms"
                 >
                   <p class="video-one__text">
-                    We’ve built our process around making medical billing stress-free for providers. From setup to reimbursements, every step is handled with precision and transparency so you can focus entirely on patient care.
+                    Weâ€™ve built our process around making medical billing stress-free for providers. From setup to reimbursements, every step is handled with precision and transparency so you can focus entirely on patient care.
                     <br><br>
                     <ul class="video-one__text">
                       <li><b>Onboarding & Setup: </b>We review your practice needs and integrate seamlessly with your existing systems.</li>
                       <li><b>Claims Submission & Coding :</b>Our certified experts code and submit claims accurately to avoid denials.</li>
-                      <li><b>Follow-Ups & Denials Management :</b>We chase every pending or denied claim until it’s resolved.</li>
+                      <li><b>Follow-Ups & Denials Management :</b>We chase every pending or denied claim until itâ€™s resolved.</li>
                       <li><b>Reporting & Insights :</b>Regular reports keep you updated on collections, denials, and revenue trends.</li>
                       <li><b>Ongoing Support :</b>A dedicated account manager ensures your billing always runs smoothly.</li>
                     </ul>
@@ -1986,7 +1839,7 @@
                   class="video-one__button wow fadeInUp"
                   data-wow-duration="1500ms"
                 >
-                  <a href="about.html" class="video-one__btn insuba-btn">
+                  <a href="about" class="video-one__btn insuba-btn">
                     <span>Learn More</span>
                     <span class="insuba-btn__icon-box">
                       <span class="insuba-btn__icon"
@@ -2008,7 +1861,7 @@
           <div class="video-one__video-button">
             <div class="video-one__video-button__inner">
               <a
-                href="contact.php"
+                href="contact"
                 class="video-btn "
               >
                 <i class="icon-play"></i>
@@ -2026,6 +1879,7 @@
           src="assets/images/shapes/video-shape-1-1.png"
           alt="shape"
           class="video-one__shape-one"
+          loading="lazy"
         />
         <img
           src="assets/images/shapes/video-shape-1-2.png"
@@ -2070,12 +1924,12 @@
                     data-wow-duration="1500ms"
                   >
                     <p class="app-store__text">
-                      Protecting patient privacy is our top priority. Every process at Pure Medical Billing Solutions is designed to meet strict HIPAA standards — so your practice can focus on care while we safeguard your data.
+                      Protecting patient privacy is our top priority. Every process at Pure Medical Billing Solutions is designed to meet strict HIPAA standards â€” so your practice can focus on care while we safeguard your data.
                       <!-- <ul>
                         <li><b>Strict HIPAA Compliance :</b>All systems and workflows follow federal regulations.</li>
                         <li><b>Secure Data Handling :</b>Patient data is encrypted and stored safely.</li>
                         <li><b>Regular Audits :</b>Processes are continuously monitored for compliance.</li>
-                        <li><b>Peace of Mind :</b>Providers trust us with sensitive information, knowing it’s always protected.</li>
+                        <li><b>Peace of Mind :</b>Providers trust us with sensitive information, knowing itâ€™s always protected.</li>
                       </ul> -->
                     </p>
                     <!-- /.app-store__text -->
@@ -2103,6 +1957,7 @@
               src="assets/images/shapes/app-store-1-1.png"
               alt="Hippa Logo"
               class="app-store__image"
+              loading="lazy"
             />
             <img
               src="assets/images/shapes/app-store-shape-1-1.png"
@@ -2141,6 +1996,7 @@
                 src="assets/images/resources/newsletter-1-1.png"
                 alt="newsletter"
                 class="newsletter__image__one"
+                loading="lazy"
               />
               <img
                 src="assets/images/shapes/newsletter-shape-1-3-home.png"
@@ -2417,7 +2273,7 @@
                       alt="Today Health insurance This Some of Our Blog off Deductible"
                     />
                     <a
-                      href="dm-service.html"
+                      href="services/dm-service"
                       class="blog-card-two__image__link"
                       ><span class="sr-only"
                         >Smarter Denial Management</span
@@ -2435,7 +2291,7 @@
                 <!-- /.blog-card-two__image -->
                 <div class="blog-card-two__content">
                   <h3 class="blog-card-two__title">
-                    <a href="dm-service.html"
+                    <a href="services/dm-service"
                       >Smarter Denial Management</a
                     >
                   </h3>
@@ -2445,7 +2301,7 @@
                   </p>
                   <!-- /.blog-card-two__text -->
                   <a
-                    href="dm-service.html"
+                    href="services/dm-service"
                     class="blog-card-two__btn insuba-btn"
                   >
                     <span>Read More</span>
@@ -2481,7 +2337,7 @@
                           alt="How to Contrary This Popular Blog"
                         />
                         <a
-                          href="contact.php"
+                          href="contact"
                           class="blog-card-two__image__link"
                           ><span class="sr-only"
                             >24/7 Virtual Support</span
@@ -2499,7 +2355,7 @@
                     <!-- /.blog-card-two__image -->
                     <div class="blog-card-two__content">
                       <h3 class="blog-card-two__title">
-                        <a href="contact.php"
+                        <a href="contact"
                           >24/7 Virtual Support</a
                         >
                       </h3>
@@ -2509,7 +2365,7 @@
                       </p>
                       <!-- /.blog-card-two__text -->
                       <a
-                        href="contact.php"
+                        href="contact"
                         class="blog-card-two__link"
                       >
                         <span class="blog-card-two__link__icon">
@@ -2535,7 +2391,7 @@
                           alt="Get Insured & Blog To Insurance Service"
                         />
                         <a
-                          href="mbc-service.html"
+                          href="services/mbc-service"
                           class="blog-card-two__image__link"
                           ><span class="sr-only"
                             >Faster Payments, Less Stress</span
@@ -2553,7 +2409,7 @@
                     <!-- /.blog-card-two__image -->
                     <div class="blog-card-two__content">
                       <h3 class="blog-card-two__title">
-                        <a href="mbc-service.html"
+                        <a href="services/mbc-service"
                           >Faster Payments, Less Stress</a
                         >
                       </h3>
@@ -2563,7 +2419,7 @@
                       </p>
                       <!-- /.blog-card-two__text -->
                       <a
-                        href="mbc-service.html"
+                        href="services/mbc-service"
                         class="blog-card-two__link"
                       >
                         <span class="blog-card-two__link__icon">
@@ -2586,245 +2442,8 @@
         <!-- /.container -->
       </section>
       <!-- /.blog-two -->
+    <?php include 'assets/includes/footer.php'; ?>
+    <?php include 'assets/includes/scripts.php'; ?>
+    </body>
 
-      <footer class="main-footer main-footer--home-2">
-        <div class="main-footer__top">
-          <div
-            class="main-footer__bg"
-            style="
-              background-image: url(assets/images/backgrounds/footer-bg.jpg);
-            "
-          ></div>
-          <!-- /.main-footer__bg -->
-          <div class="container">
-            <div class="row gutter-y-40">
-              <div
-                class="col-xl-8 col-lg-6 col-md-8 wow fadeInUp"
-                data-wow-duration="1500ms"
-                data-wow-delay="00ms"
-              >
-                <div class="footer-widget footer-widget--about">
-                  <a href="index.html" class="footer-widget__logo">
-                    <img
-                      src="assets/images/logo-dark.png"
-                      width="292"
-                      alt="Insuba HTML Template" style="background-color: white; padding:10px;border-radius: 29px;" 
-                    /> </a
-                  ><!-- /.footer-widget__logo -->
-                  <p class="footer-widget__about">
-                    We provide billing and RCM services tailored for therapists and psychiatrists while ensuring you stay connected with our company’s newest updates.
-                  </p>
-                  <!-- /.footer-widget__about -->
-                  <div class="social-links">
-                    <a href="https://www.facebook.com/profile.html?id=61555900199388" target="_blank">
-                      <span class="social-links__icon">
-                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span> </span
-                      ><!-- /.social-links__icon -->
-                    </a>
-                    <a href="https://www.instagram.com/pure.medical.billing.solutions" target="_blank">
-                      <span class="social-links__icon">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span> </span
-                      ><!-- /.social-links__icon -->
-                    </a>
-                  </div>
-                  <!-- /.social-links -->
-                </div>
-                <!-- /.footer-widget -->
-              </div>
-
-              <div
-                class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-duration="1500ms"
-                data-wow-delay="300ms"
-              >
-                <div class="footer-widget footer-widget--info">
-                  <h2 class="footer-widget__title">About Us</h2>
-                  <!-- /.footer-widget__title -->
-                  <ul class="list-unstyled footer-widget__info">
-                    <li>
-                      <span class="footer-widget__info__icon"
-                        ><i class="far fa-clock"></i
-                      ></span>
-                      <div class="footer-widget__info__text">
-                        <span>Office Hours:</span> <br />
-                        <span>Mon - Fri: 09.00 AM. - 06.00 PM (EST).</span>
-                      </div>
-                      <!-- /.footer-widget__info__text -->
-                    </li>
-                    <li>
-                      <span class="footer-widget__info__icon"
-                        ><i class="fas fa-map-marker-alt"></i
-                      ></span>
-                      <a href="#" class="footer-widget__info__text">
-                        7901 4th ST N, STE 4878, <br> ST.Petersburg Florida, 33702</a
-                      >
-                    </li>
-                    <li>
-                      <span class="footer-widget__info__icon"
-                        ><i class="fas fa-phone-alt"></i
-                      ></span>
-                      <div class="footer-widget__info__text">
-                        <a href="tel:+17079486213">+1(707)–948–6213</a>
-                      </div>
-                      <!-- /.footer-widget__info__text -->
-                    </li>
-                  </ul>
-                  <!-- /.list-unstyled -->
-                </div>
-                <!-- /.footer-widget -->
-              </div>
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.container -->
-          <img
-            src="assets/images/shapes/footer-shape-1-1.png"
-            alt="shape"
-            class="main-footer__shape-one"
-          />
-          <img
-            src="assets/images/shapes/footer-shape-1-2.png"
-            alt="shape"
-            class="main-footer__shape-two"
-          />
-        </div>
-        <!-- /.main-footer__top -->
-        <div class="main-footer__bottom">
-          <div class="container">
-            <div class="main-footer__bottom__inner">
-              <p class="main-footer__copyright">
-                &copy; Copyright <span class="dynamic-year"></span> by Pure Medical Billing Solutions.
-              </p>
-            </div>
-            <!-- /.main-footer__inner -->
-          </div>
-          <!-- /.container -->
-        </div>
-        <!-- /.main-footer__bottom -->
-      </footer>
-      <!-- /.main-footer -->
-    </div>
-    <!-- /.page-wrapper -->
-
-    <div class="mobile-nav__wrapper">
-      <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-      <!-- /.mobile-nav__overlay -->
-      <div class="mobile-nav__content">
-        <span class="mobile-nav__close mobile-nav__toggler"
-          ><i class="icon-close"></i
-        ></span>
-        <div class="logo-box logo-retina">
-          <a href="index.html" aria-label="logo image">
-            <img src="assets/images/logo-light.png" width="212" alt="" />
-          </a>
-        </div>
-        <!-- /.logo-box -->
-        <div class="mobile-nav__container"></div>
-        <!-- /.mobile-nav__container -->
-        <ul class="mobile-nav__contact list-unstyled">
-          <li>
-            <span class="mobile-nav__contact__icon"
-              ><i class="fa fa-envelope"></i
-            ></span>
-            <a href="mailto:needhelp@insuba.com">info@puremedicalbilling.com</a>
-          </li>
-          <li>
-            <span class="mobile-nav__contact__icon"
-              ><i class="fa fa-phone-alt"></i
-            ></span>
-            <a href="tel:+9156980036420">+91 5698 0036 420</a>
-          </li>
-        </ul>
-        <!-- /.mobile-nav__contact -->
-        <div class="mobile-nav__social social-links">
-          <a href="https://www.facebook.com/profile.html?id=61555900199388" target="_blank">
-            <span class="social-links__icon">
-              <i class="fab fa-facebook-f" aria-hidden="true"></i>
-              <span class="sr-only">Facebook</span> </span
-            ><!-- /.social-links__icon -->
-          </a>
-          <a href="https://pinterest.com">
-            <span class="social-links__icon">
-              <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-              <span class="sr-only">Pinterest</span> </span
-            ><!-- /.social-links__icon -->
-          </a>
-          <a href="https://twitter.com">
-            <span class="social-links__icon">
-              <i class="fab fa-twitter" aria-hidden="true"></i>
-              <span class="sr-only">Twitter</span> </span
-            ><!-- /.social-links__icon -->
-          </a>
-          <a href="https://www.instagram.com/pure.medical.billing.solutions" target="_blank">
-            <span class="social-links__icon">
-              <i class="fab fa-instagram" aria-hidden="true"></i>
-              <span class="sr-only">Instagram</span> </span
-            ><!-- /.social-links__icon -->
-          </a>
-        </div>
-        <!-- /.mobile-nav__social -->
-      </div>
-      <!-- /.mobile-nav__content -->
-    </div>
-    <!-- /.mobile-nav__wrapper -->
-    <div class="search-popup">
-      <div class="search-popup__overlay search-toggler"></div>
-      <!-- /.search-popup__overlay -->
-      <div class="search-popup__content">
-        <form role="search" method="get" class="search-popup__form" action="#">
-          <input type="text" id="search" placeholder="Search Here..." />
-          <button
-            type="submit"
-            aria-label="search submit"
-            class="insuba-btn insuba-btn--base"
-          >
-            <i class="icon-search"></i>
-          </button>
-        </form>
-      </div>
-      <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
-
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
-      <span class="scroll-to-top__text">back top</span>
-      <span class="scroll-to-top__wrapper"
-        ><span class="scroll-to-top__inner"></span
-      ></span>
-    </a>
-
-    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
-    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
-    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
-    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
-    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendors/wow/wow.js"></script>
-    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
-    <script src="assets/vendors/isotope/isotope.js"></script>
-    <script src="assets/vendors/countdown/countdown.min.js"></script>
-    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
-    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
-    <script src="assets/vendors/chart/chart.js"></script>
-    <!-- template js -->
-    <script src="assets/js/insuba.js"></script>
-    <script>
-    function submitForm(){
-        var emailContainer = document.getElementById('contact-email');
-        var value = emailContainer.value;
-        window.location.href = 'contact.php?email=' + encodeURIComponent(value);
-    }
-</script>
-  </body>
-</html>
+    </html>
