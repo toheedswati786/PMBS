@@ -39,12 +39,13 @@
         href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <!-- <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" /> -->
     <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
 
     <link
         rel="stylesheet"
         href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <!-- 
     <link
         rel="stylesheet"
         href="assets/vendors/nouislider/nouislider.min.css" />
@@ -53,7 +54,8 @@
         href="assets/vendors/nouislider/nouislider.pips.css" />
     <link
         rel="stylesheet"
-        href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css" />
+        href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css" /> 
+    -->
     <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
     <link rel="stylesheet" href="assets/vendors/insuba-icons/style.css" />
     <link

@@ -110,7 +110,7 @@
               <span class="mobile-nav__close mobile-nav__toggler"><i class="icon-close"></i></span>
               <div class="logo-box logo-retina">
                   <a href="./" aria-label="logo image">
-                      <img src="assets/images/logo-light.png" width="212" alt="" />
+                      <img src="assets/images/logo-dark.png" width="212" alt="" />
                   </a>
               </div>
               <!-- /.logo-box -->

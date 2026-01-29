@@ -52,6 +52,30 @@ function render_seo($title = null, $description = null, $image = null, $url = nu
         <meta name="twitter:site" content="<?php echo htmlspecialchars($config['twitter_handle']); ?>">
     <?php endif; ?>
     <!-- End SEO Meta Tags -->
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MedicalOrganization",
+            "name": "<?php echo htmlspecialchars($site_name); ?>",
+            "url": "<?php echo htmlspecialchars($base_url); ?>",
+            "logo": "<?php echo htmlspecialchars($final_image); ?>",
+            "description": "<?php echo htmlspecialchars($final_description); ?>",
+            "telephone": "+1-707-948-6213",
+            "email": "info@puremedicalbilling.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "7901 4th ST N, STE 4878",
+                "addressLocality": "ST.Petersburg",
+                "addressRegion": "FL",
+                "postalCode": "33702",
+                "addressCountry": "US"
+            },
+            "openingHours": "Mo-Fr 09:00-18:00",
+            "priceRange": "$$"
+        }
+    </script>
 <?php
 }
 ?>

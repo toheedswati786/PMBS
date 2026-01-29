@@ -9,6 +9,8 @@
   ?>
   <?php render_seo("Home", "Boost practice revenue with our expert Medical Billing Services. We provide end-to-end RCM, Denial Management, and Virtual Assistant support to streamline your operations and maximize reimbursements."); ?>
   <?php include 'assets/includes/links.php'; ?>
+  <!-- Preload LCP Image -->
+  <link rel="preload" as="image" href="assets/images/main-slider/main-slider-2-1.jpg" fetchpriority="high">
   <style>
     .img-extra-margin {
       margin-top: 0px !important;
