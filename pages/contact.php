@@ -39,7 +39,7 @@ if (isset($_GET['email']) && !empty(isset($_GET['email']))) {
                     <span class="contact__call__icon"><i class="icon-phone-ringing"></i></span>
                     <div class="contact__call__content">
                         <h4 class="contact__call__title">Phone Number</h4>
-                        <a href="tel:+1707948213" class="contact__call__number">+1(707)948-213</a>
+                        <a href="tel:+17079486213" class="contact__call__number">+1(707)948-6213</a>
                     </div>
                 </div>
                 <div class="contact__inner">

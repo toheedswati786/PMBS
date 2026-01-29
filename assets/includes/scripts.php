@@ -21,7 +21,8 @@
     <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
     <script src="assets/vendors/chart/chart.js"></script>
     <!-- template js -->
-    <script src="assets/js/insuba.js"></script>
+    <script src="<?php echo auto_version('assets/js/insuba.js'); ?>"></script>
+    <?php include 'assets/includes/chatbot_snippet.php'; ?>
     <script>
         function submitForm() {
             var emailContainer = document.getElementById('contact-email');

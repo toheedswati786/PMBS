@@ -16,14 +16,14 @@
                               <a href="./" class="footer-widget__logo">
                                   <img
                                       src="assets/images/logo-dark.png"
-                                      width="292"
+                                      width="292" class="img-extra-margin"
                                       alt="Insuba HTML Template" style="background-color: white; padding:10px;border-radius: 29px;" /> </a><!-- /.footer-widget__logo -->
                               <p class="footer-widget__about">
-                                  We provide billing and RCM services tailored for therapists and psychiatrists while ensuring you stay connected with our companyâ€™s newest updates.
+                                  We provide billing and RCM services tailored for therapists and psychiatrists while ensuring you stay connected with our company's newest updates.
                               </p>
                               <!-- /.footer-widget__about -->
                               <div class="social-links">
-                                  <a href="https://www.facebook.com/profile.html?id=61555900199388" target="_blank">
+                                  <a href="https://www.facebook.com/profile.php?id=61555900199388" target="_blank">
                                       <span class="social-links__icon">
                                           <i class="fab fa-facebook-f" aria-hidden="true"></i>
                                           <span class="sr-only">Facebook</span> </span><!-- /.social-links__icon -->
@@ -63,7 +63,7 @@
                                   <li>
                                       <span class="footer-widget__info__icon"><i class="fas fa-phone-alt"></i></span>
                                       <div class="footer-widget__info__text">
-                                          <a href="tel:+17079486213">+1(707)â€“948â€“6213</a>
+                                          <a href="tel:+17079486213">+1(707)-948-6213</a>
                                       </div>
                                       <!-- /.footer-widget__info__text -->
                                   </li>
@@ -123,12 +123,12 @@
                   </li>
                   <li>
                       <span class="mobile-nav__contact__icon"><i class="fa fa-phone-alt"></i></span>
-                      <a href="tel:+17079486213">+1(707)â€“948â€“6213</a>
+                      <a href="tel:+17079486213">+1(707)-948-6213</a>
                   </li>
               </ul>
               <!-- /.mobile-nav__contact -->
               <div class="mobile-nav__social social-links">
-                  <a href="https://www.facebook.com/profile.html?id=61555900199388" target="_blank">
+                  <a href="https://www.facebook.com/profile.php?id=61555900199388" target="_blank">
                       <span class="social-links__icon">
                           <i class="fab fa-facebook-f" aria-hidden="true"></i>
                           <span class="sr-only">Facebook</span> </span><!-- /.social-links__icon -->

@@ -1,0 +1,46 @@
+[
+  {
+    "keywords": ["hello", "hi", "hey", "start", "greeting"],
+    "answer": "Hello! Welcome to Pure Medical Billing Solutions. How can I help you today?"
+  },
+  {
+    "keywords": ["hours", "open", "time"],
+    "answer": "Our office hours are Mon - Fri: 09.00 AM - 06.00 PM (EST)."
+  },
+  {
+    "keywords": ["contact", "phone", "email", "call", "reach"],
+    "answer": "You can reach us at +1(707)-948-6213 or via email at info@puremedicalbilling.com. We are located at 7901 4th ST N, STE 4878, ST.Petersburg Florida, 33702."
+  },
+  {
+    "keywords": ["services", "offer", "provide", "what do you do"],
+    "answer": "We offer a range of services including: <br>• Medical Billing & Coding <br>• Virtual Assistance <br>• Provider Credentialing <br>• Revenue Cycle Management (RCM) <br>• Denial Management <br>• Accounts Receivable Recovery"
+  },
+  {
+    "keywords": ["billing", "coding", "mbc"],
+    "answer": "Our Medical Billing & Coding service ensures accurate claims and faster payments with a 98% first-pass success rate."
+  },
+  {
+    "keywords": ["credentialing", "enrollment", "paneling"],
+    "answer": "We handle provider credentialing to get you enrolled with insurance payers quickly, so you can start seeing patients and getting paid."
+  },
+  {
+    "keywords": ["virtual assistant", "va", "support staff"],
+    "answer": "Our Hipaa-compliant Virtual Assistants can help with scheduling, admin tasks, and patient follow-ups to save you time."
+  },
+  {
+    "keywords": ["rcm", "revenue cycle"],
+    "answer": "Our Revenue Cycle Management (RCM) service covers the entire financial process, from patient registration to final payment."
+  },
+  {
+    "keywords": ["denial", "rejected", "appeal"],
+    "answer": "We specialize in Denial Management to analyze rejected claims, fix errors, and appeal to recover lost revenue."
+  },
+  {
+    "keywords": ["cost", "price", "fees"],
+    "answer": "Our services are designed to save you up to 70% in administrative costs. Please contact us for a personalized quote based on your practice's needs."
+  },
+  {
+    "keywords": ["offline", "team"],
+    "answer": "If our team is unavailable, please leave a message or call us directly at +1(707)-948-6213."
+  }
+]

@@ -32,7 +32,7 @@
                     </ul><!-- /.list-unstyled topbar__info -->
                     <div class="topbar__right">
                         <div class="topbar__social social-links">
-                            <a href="https://www.facebook.com/profile.html?id=61555900199388" target="_blank">
+                            <a href="https://www.facebook.com/profile.php?id=61555900199388" target="_blank">
                                 <span class="social-links__icon">
                                     <i class="fab fa-facebook-f" aria-hidden="true"></i>
                                     <span class="sr-only">Facebook</span>

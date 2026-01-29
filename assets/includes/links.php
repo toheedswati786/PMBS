@@ -63,5 +63,15 @@
         rel="stylesheet"
         href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
 
+    <?php include_once 'assets/includes/cache_manager.php'; ?>
+
     <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/insuba.css" />
+    <link rel="stylesheet" href="<?php echo auto_version('assets/css/insuba.css'); ?>" />
+    <link rel="stylesheet" href="<?php echo auto_version('assets/css/chatbot.css'); ?>" />
+    <meta charset="UTF-8">
+
+    <style>
+        .img-extra-margin {
+            margin-top: 40px;
+        }
+    </style>
